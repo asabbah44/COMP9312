@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 # load the iris dataset and get X and Y data
 
-data = pd.read_csv("satd.csv")
+data = pd.read_csv("TD2.csv")
 df = pd.DataFrame(data)
 
 train,test = train_test_split(df, test_size=0.20, random_state=0)
