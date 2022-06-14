@@ -90,7 +90,7 @@ class BertTrainer:
     def save_predictions(self, segments, output_filename):
         with open(output_filename, "w") as fh:
             # delimiter change from \t to , by sabbah
-            w = csv.writer(fh, delimiter=",")
+            w = csv.writer(fh, delimiter="&")
             rows = [["Text", "Label", "Prediction"]]
             rows += [(s.text, s.label, s.pred) for s in segments]
             w.writerows(rows)
