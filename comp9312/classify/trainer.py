@@ -142,8 +142,13 @@ class BertTrainer:
                 segments, test_loss = self.eval(self.test_dataloader)
                 self.save_predictions(segments, os.path.join(self.output_path, "predictions.txt"))
                 test_metrics = self.compute_metrics(segments)
-                y_t = [self.s.label[x] for x in self.y_true]
-                y_p = [self.s.label[x] for x in self.y_pred.argmax(axis=1)]
+
+
+                y_true = [s.label for s in segments]
+                y_pred = [s.pred for s in segments]
+
+                y_t = [self.s.label[x] for x in y_true]
+                y_p = [self.s.label[x] for x in y_pred.argmax(axis=1)]
                 skplt.metrics.plot_confusion_matrix(
                     y_t,
                     y_p,
