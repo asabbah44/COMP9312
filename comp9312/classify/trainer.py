@@ -3,6 +3,7 @@ import torch
 import logging
 import csv
 import numpy as np
+import scikitplot as skplt
 from sklearn.metrics import precision_recall_fscore_support, classification_report
 
 logger = logging.getLogger(__name__)
@@ -141,7 +142,6 @@ class BertTrainer:
                 segments, test_loss = self.eval(self.test_dataloader)
                 self.save_predictions(segments, os.path.join(self.output_path, "predictions.txt"))
                 test_metrics = self.compute_metrics(segments)
-                import scikitplot as skplt
                 y_t = [self.s.label[x] for x in self.y_true]
                 y_p = [self.s.label[x] for x in self.y_pred.argmax(axis=1)]
                 skplt.metrics.plot_confusion_matrix(
