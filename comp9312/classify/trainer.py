@@ -96,7 +96,7 @@ class BertTrainer:
 
     def save_predictions2(self, segments, output_filename):
         with open(output_filename, "w") as fh:
-            w = csv.writer(fh, delimiter="\t")
+            w = csv.writer(fh, delimiter=",")
             rows = [["1", "Label", "Prediction"]]
             rows += [("1", s.label, s.pred) for s in segments]
             w.writerows(rows)
