@@ -89,10 +89,16 @@ class BertTrainer:
 
     def save_predictions(self, segments, output_filename):
         with open(output_filename, "w") as fh:
-            # delimiter change from \t to , by sabbah
-            w = csv.writer(fh, delimiter="&")
+            w = csv.writer(fh, delimiter="\t")
             rows = [["Text", "Label", "Prediction"]]
             rows += [(s.text, s.label, s.pred) for s in segments]
+            w.writerows(rows)
+
+    def save_predictions2(self, segments, output_filename):
+        with open(output_filename, "w") as fh:
+            w = csv.writer(fh, delimiter="\t")
+            rows = [["1", "Label", "Prediction"]]
+            rows += [("1", s.label, s.pred) for s in segments]
             w.writerows(rows)
 
     def train(self):
@@ -141,6 +147,7 @@ class BertTrainer:
                 logger.info("** Validation improved, evaluating test data **")
                 segments, test_loss = self.eval(self.test_dataloader)
                 self.save_predictions(segments, os.path.join(self.output_path, "predictions.txt"))
+                self.save_predictions2(segments, os.path.join(self.output_path, "predictions2.txt"))
                 test_metrics = self.compute_metrics(segments)
                 logger.info(
                     f"Epoch %d | Timestep %d | Test Loss %f | F1 Micro %f",
