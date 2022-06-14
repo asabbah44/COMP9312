@@ -144,16 +144,6 @@ class BertTrainer:
                 test_metrics = self.compute_metrics(segments)
 
 
-                y_true = [s.label for s in segments]
-                y_pred = [s.pred for s in segments]
-
-                y_t = [self.s.label[x] for x in y_true]
-                y_p = [self.s.label[x] for x in y_pred.argmax(axis=1)]
-                skplt.metrics.plot_confusion_matrix(
-                    y_t,
-                    y_p,
-                    figsize=(12, 12), x_tick_rotation=90)
-
                 logger.info(
                     f"Epoch %d | Timestep %d | Test Loss %f | F1 Micro %f",
                     epoch_index,
