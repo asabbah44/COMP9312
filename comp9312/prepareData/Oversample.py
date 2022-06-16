@@ -26,11 +26,13 @@ X_res_smo, y_res_som = SMOTEN_over_sampler.fit_resample(x, y)
 
 print(f"Training target Random: ",X_res.count())
 print(f"Training target  SMOTEN : ",X_res_smo.count())
-traind=pd.concat([X_res, y_res], axis=1)
-print(traind.head())
 
-X_res.to_csv('R_overtrain.csv',index=False)
-X_res_smo.to_csv('SMOTEN_train.csv',index=False)
+trainOver=pd.concat([X_res, y_res], axis=1)
+trainSMOTEN=pd.concat([X_res_smo, y_res_som], axis=1)
+print(trainOver.head())
+
+trainOver.to_csv('R_overtrain.csv',index=False)
+trainSMOTEN.to_csv('SMOTEN_train.csv',index=False)
 # val.to_csv('val.csv',index=False)
 
 # print(X_train.head())
