@@ -1,0 +1,416 @@
+text,label
+//where oh where has my test case 3 gone?,TEST
+// TODO: I18N required,IMPLEMENTATION
+// TODO: NOT_ALLOCATABLE_ALLOCATOR is probably ok here. Confirm. JRUBY-415,DESIGN
+"// TODO: Before allowing this, we should really check that // TemplateParameter.defaultElement is defined",IMPLEMENTATION
+/* FIXME: arg_concat logic missing for opt_call_args*/,IMPLEMENTATION
+// FIXME formatters are not thread-safe,DEFECT
+"/**
+ * TODO: Document!
+ * 
+ * @author penyaskito
+ */",DOCUMENTATION
+"// FIXME: I doubt any of the constants referenced in this method // are ever redefined -- should compare to the known values, rather // than do an expensive constant lookup.",DEFECT
+// TODO factor up into GenBaseImpl? //,DESIGN
+// TODO should level be more than debug ?,DESIGN
+// TODO these assertions should be separate tests,TEST
+"/**
+     * Set the owners of the associated FigNodes to be the StateVertexes which
+     * are at either end of the Transition.
+     * <p>
+     * TODO: This needs documentation! Is this really needed? Why?
+     * 
+     * @param lay diagram layer containing this fig
+     * @param owner owning UML element
+     * @deprecated in 0.28 by Bob Tarling - The above TODO is from Michiel.
+     * I also don't understand the purpose of this method. The GEF framework
+     * should be setting source/dest or persistence should manage.
+     */",DOCUMENTATION
+"/**
+ * TODO: JavaDoc
+ * 
+ * @author Colin Bell
+ */",DOCUMENTATION
+"// TODO: To enable models and subsystems, change this flag // Work started by Markus I believe where does this stand? - Bob.",IMPLEMENTATION
+// This refactoring depends on the following dialect API methods: // getUpdateSQL,DESIGN
+//TODO - move to JOrphanUtils?,DESIGN
+"// very subtle... if we leave this for // ensurePhysicalLineIsVisible(), an // extra line will be added to the // scroll line count.",DEFECT
+"// TODO: Comment by A- Rueckert: I don't think it makes much // sense to query interactions from a Collaboration in UML2, // since this diagram does no longer exist and // an Interaction means something different in UML2.",DESIGN
+// TODO: This should only be building list up to 'index',DEFECT
+// TODO: add and delete not currently supported // $NON-NLS-1$,IMPLEMENTATION
+//TODO enable some proper tests!!,TEST
+"// TODO: bindpropertyresults(alias, returnElem)",IMPLEMENTATION
+"//TODO: not really completely correct, since //      the uoe could occur while resolving //      associations, leaving the PC in an //      inconsistent state",DEFECT
+// List<Transition> result = new ArrayList<Transition>(); // TODO: not complete - how to retrieve the transitions?,IMPLEMENTATION
+//TODO: merge into one method!,DESIGN
+/* TODO: sort the list. */,IMPLEMENTATION
+// TODO: draw the interval marker with a 3D effect,IMPLEMENTATION
+"// TODO: turn off readable? am I reading this right? // This only seems to be used while duping below, since modes gets // reset to actual modes afterward //fptr->mode &= (m & FMODE_READABLE) ? ~FMODE_READABLE : ~FMODE_WRITABLE;",IMPLEMENTATION
+// TODO: check for ascii string,IMPLEMENTATION
+// not needed,IMPLEMENTATION
+"// bug #997560 (fdietz): CC: should be in Cc:, instead of To:",DEFECT
+// TODO: test that surrogate value is legal.,TEST
+// TODO support other name kinds,IMPLEMENTATION
+// Do we need to add tests for the following? // // AggregationKind // ChangeableKind // MessageDirectionKind // OrderingKind // ParameterDirectionKind // PseudostateKind // ScopeKind // VisibilityKind //,TEST
+// TODO: This is a part implementation of well-formedness rule // UML1.4.2 - 4.5.3.20 [3] Circular inheritance is not allowed. // not self.allParents->includes(self),DESIGN
+// FIXME: Make bodyNode non-null in parser,IMPLEMENTATION
+// TODO Expression and InstanceValue (how) // If anyone have an example.,IMPLEMENTATION
+// CREATE ENTITIES // FIXME:  these methods should be defined,DESIGN
+// TODO: consider inherited attributes?,IMPLEMENTATION
+// TODO: Allow adding models to a diagram - issue 4172.,DEFECT
+// TODO: Should we require a GraphModel in the constructor since // our implementations of setNamespace are going to try and set // the namespace on the graphmodel as well?,IMPLEMENTATION
+// Don't generate private or loosely typed fields // Note: loose types aren't currently parsed anyway...,DEFECT
+// TODO (@author fdietz): add error dialog,IMPLEMENTATION
+// TODO: Before adding a new region make the last region // its minimum size (smallest size that will still // contain all enclosed),IMPLEMENTATION
+"/*
+			 * TODO: hookup with Interbase spec and adjust these as necessary. 
+			 */",IMPLEMENTATION
+// NOTUSED: GuiPackage guiPack =,DESIGN
+// TODO: Make sure all appropriate open flags are added to this check.,IMPLEMENTATION
+// TODO: This should be something else like a tCHAR,IMPLEMENTATION
+// defer argument checking,DESIGN
+// TODO: take BigDecimal.mode into account.,DEFECT
+// TODO: should not be using assert here but I don't want to change to // IllegalStateException at lead up to a release as I don't know how // much testing is done with assert on.,TEST
+"/* TODO: We should use implicit nil for body, but problem (punt til later)*/",DEFECT
+"// assume that the row was not there since it previously had only null // values, so do an INSERT instead //TODO: does not respect dynamic-insert",DEFECT
+"// TODO: better detection when path is absolute or not. // If the path isn't absolute, then prepend the current working // directory to the path.",IMPLEMENTATION
+"/**
+ * A dialect delegate for the Axion database.  
+ * TODO: This dialect is not yet complete.  Need to provide implementations wherever ""Not yet implemented""
+ * appears. 
+ */",IMPLEMENTATION
+"// if the method is extending something, then we have // to test if the handler is initialized...",TEST
+"/**
+     * Test creation of metatypes.
+     *
+     * TODO: we could add tests here to make sure that
+     * we can NOT create abstract types
+     */",TEST
+// TODO: do something here?,IMPLEMENTATION
+// Use a little trick to find out where Argo is being loaded from. // TODO: Use a different resource here. ARGOINI is unused and deprecated,IMPLEMENTATION
+"//@GuardedBy(""sampleStore"") TODO perhaps use ConcurrentHashMap ?",DESIGN
+// TODO: implement,IMPLEMENTATION
+"/**
+ * Test cases for generating subject lines, when replying and/or forwarding
+ * messages
+ * <p>
+ *
+ * TODO: Re:[columba-devel]test-subject
+ *
+ * @author fdietz
+ */",TEST
+"/**
+     * <p>Determines if the FigEdge is currently connected to the correct
+     * FigNodes, if not the edges is the correct FigNodes set and the edge
+     * rerouted.
+     * <p>Typically this is used when a user has amended from the property
+     * panel a relationship from one model element to another and the graph
+     * needs to react to that change.
+     * <p>e.g. if the participant of an association end is changed.
+     * <p>Calls a helper method (layoutThisToSelf) to avoid this edge
+     * disappearing if the new source and dest are the same node.
+     *
+     * TODO: This method is called far too frequently. It should only be called
+     * when a specific event is received. It seems to be currently called whenever
+     * any event is received from the owner.
+     *
+     * @return boolean whether or not the update was sucessful
+     */",DESIGN
+// FIXME: This is causing a verification error for some reason //nilClass.dispatcher = callbackFactory.createDispatcher(nilClass);,DEFECT
+// TODO: I18N,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+"/**
+          * TODO: minimum height should not be calculated every time, but only 
+          * when an FigMessage has been added or removed.
+          * Currently doing that doesn't work because of an unknown problem. 
+          * How to test: create only two CRs and a create message between them. 
+          * Then move the create message to the bottom!
+          * Until that is fixed the workaround is to call updateMinimumHeight()
+          * every time the minimum size is needed
+          */",IMPLEMENTATION
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * @return String
+	 * @param String
+	 *            Name
+	 *  
+	 */",DOCUMENTATION
+// TODO: Is there anyway we can determine this size at runtime?,DESIGN
+"// TODO do tests for ranges in collection definition (8.5.12), // even though it is not yet supported",TEST
+// TODO fix this when there is a real implementation,DESIGN
+"// this is the wrong test if the remote OS is OpenVMS, // but there doesn't seem to be a way to detect it.",TEST
+// TODO: What are these magic numbers?,DESIGN
+// TODO: don't require pop,DEFECT
+//TODO (@author fdietz): i18n,DESIGN
+// TODO: assumes public // TODO: This is probably an undesirable side effect unless the user // confirms it.  Placing an element on a second diagram is going to // potentially change its namespace. - tfm 20061208,DEFECT
+"/**
+     * Create an empty but initialized instance of a UML DataType.
+     *
+     * @return an initialized UML DataType instance.
+     * TODO: This needs an extra parameter to specify the model/extent where
+     * the new element should be created.
+     */",DESIGN
+"/*
+     * TODO: needs documenting, why synchronized?
+     */",DOCUMENTATION
+"// TODO: Maybe prompt the user to ask to append the records,  // ignoring errors for constraint violations?",IMPLEMENTATION
+"// TODO: This DTD doesn't exist, so we can't tell readers to // look for it //		w.println(""<!DOCTYPE profile SYSTEM \""profile.dtd\"" >""); // but we need a 2nd line to make the funky UML persister work // remove this line if the above is uncommented",IMPLEMENTATION
+"//if there was any text before this, add it as a fragment //TODO, this check could be modified to go if pos>prev; //seems like this current version could stick empty strings //into the list",IMPLEMENTATION
+// TODO: not in UML 2,DEFECT
+// TODO: Need to clean up objectToId // (can we do it based on modelelement delete // notifications?),DESIGN
+"// up to ten, stuff into tmp locals, load in reverse order, and assign // FIXME: There's probably a slightly smarter way, but is it important?",DESIGN
+// TODO: getAllModelElementsOfKind should probably do this // processing of imported elements automatically,DESIGN
+// TODO: Bobs says - what is the purpose of this flag? Please document.,DOCUMENTATION
+// TODO - need a lot more tests,TEST
+"// If is a classifier role, it must return the sent messages. // In other cases, returns an empty list. // TODO: Must be the incoming messages or the sent ones?",DESIGN
+// TODO: check type!,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+// TODO: don't require pop,DEFECT
+// TODO: We failed to resolve URL - signal error,IMPLEMENTATION
+"/* TODO: If this is an ordered list, then you have to
+                        add in the right location! */",DEFECT
+// TODO: don't require pop,DEFECT
+// Ensure that this race condition is thread safe; it doesn't matter who wins the race. //,DESIGN
+"/**
+     * Utility function to localize the given string with help text, and show it
+     * in the status bar of the ArgoUML window. This function is used in favour
+     * of the inline call to enable later improvements; e.g. it would be
+     * possible to show a help-balloon.
+     * <p>
+     * TODO: Work this out. One matter to possibly improve: show multiple lines.
+     *
+     * @param s the given string to be localized and shown
+     */",DEFECT
+// TODO : why aren't these the same?,IMPLEMENTATION
+// copy and paste from bsh/classpath/ClassManagerImpl.java...,DESIGN
+//FIXME we should really assert a value here,DESIGN
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * Constructor
+	 * 
+	 * @param String
+	 *            Name
+	 *  
+	 */",DOCUMENTATION
+// TODO: use the destination database type to derive a format // that is acceptable.,IMPLEMENTATION
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * @return boolean
+	 * @param XmlElement
+	 *            E
+	 *  
+	 */",DOCUMENTATION
+// TODO: I18N required,IMPLEMENTATION
+"// TODO: When the attribute isn't in the diagram // , for exemple: select attribut by Explorer // Then, the refresh isn't auto: we had to click !!",DEFECT
+"// A language must be unique // So, select the current empty language. // TODO ? Alert",IMPLEMENTATION
+"// FIXME: do we really want 'declared' methods?  includes private/protected, and does _not_ // include superclass methods",DESIGN
+"/**
+    * Parse the attribute type.
+    * [54] AttType ::= StringType | TokenizedType | EnumeratedType
+    * [55] StringType ::= 'CDATA'
+    * [56] TokenizedType ::= 'ID' | 'IDREF' | 'IDREFS' | 'ENTITY' | 'ENTITIES' |
+    *                        'NMTOKEN' | 'NMTOKENS'
+    * [57] EnumeratedType ::= NotationType | Enumeration
+    * *TODO: validate the type!!
+    */",IMPLEMENTATION
+"/* TODO: We may return the following when the
+         * relocate() has been implemented. */",IMPLEMENTATION
+"// For a one-to-many, a <bag> is not really a bag; // it is *really* a set, since it can't contain the // same element twice. It could be considered a bug // in the mapping dtd that <bag> allows <one-to-many>.",DEFECT
+"// if there are multiple variables in declaration,  // separate this variable fragment into a separate declaration",DESIGN
+"// Walk up the scope tree right now as much as possible, to avoid run-time walking // SSS FIXME: Any reason why this might break in the presence of ruby's dynamic resolution?  What might break?",DEFECT
+"// TODO: get SQL rendering out of here, create an AST for the join expressions. // Use the SQL generator grammar to generate the SQL text for the index expression.",DESIGN
+// we consume this to work around the bug // where A+TAB window switching activates // the menu bar on Windows.,DESIGN
+// TODO implementationLocation??,IMPLEMENTATION
+// not needed,IMPLEMENTATION
+"// If it exists, remove it and add it at the end (avoid memory leak)",DEFECT
+// FIXME: Document difference between warn and warning (or rename one better),DOCUMENTATION
+// TODO: Does this still need to be synchronized? If so then explain why.,DOCUMENTATION
+"// Bug #1995728 // MS-SQL is inconsistent with regard to setting the current catalog. If you have a database with // periods or spaces, then in some cases you must surround the catalog with quotes. For example,  // if you have a catalog named 'db with spaces' you must execute the following SQL: //  // use ""db with spaces"" // // However, the same is not always true for the JDBC API method Connection.setCatalog. For some old // versions of Microsoft drivers, you must quote the catalog as well. But for newer versions of the // driver, you must not quote the catalog. So here, we attempt to use the unquoted version first, then // if that fails, we will try quoting it.",DEFECT
+// stupid: caret will automatically be incremented,DESIGN
+// TODO: don't require pop,DEFECT
+// TODO: don't require pop,DEFECT
+//TODO: make this a bit nicer,DESIGN
+// TODO: Do we need this?,DOCUMENTATION
+"// TODO do tests for type conformance (8.4.4), // even though it is not yet supported",TEST
+//        cleanAllExtentsBut(model); // TODO: why is this causing a crash?!?,TEST
+"/**
+     * Sorts the specified destInfos array based on the order of the sourceInfos
+     * array.  Not a very efficient algorthim, but it gets the job done.
+     * TODO: rewrite this using Collections sorting capability.
+     * 
+     * @param sourceInfos
+     * @param destInfos
+     * @param sourceTableName
+     * @param destTableName
+     * @return a re-ordered version of the specified destInfos array
+     * @throws MappingException if the arrays differ in length or column names.
+     */",IMPLEMENTATION
+"/**
+     * Returns all substates some composite state contains.
+     * <p>
+     * TODO: {@link #getAllPossibleSubvertices(Object)} and
+     * {@link #getAllSubStates(Object)} are duplicates as implemented for MDR.
+     * It isn't clear from the Javadoc or usage whether they should do different
+     * things or this just happened because no one noticed we already had
+     * another method.
+     * 
+     * @param compState
+     *                the given compositestate
+     * @return all substates
+     */",DOCUMENTATION
+"// Just a note: StarTeam has a status for NEW which implies // that there is an item  on your local machine that is not // in the repository.  These are the items that show up as // NOT IN VIEW in the Starteam GUI. // One would think that we would want to perhaps checkin the // NEW items (not in all cases! - Steve Cohen 15 Dec 2001) // Unfortunately, the sdk doesn't really work, and we can't // actually see  anything with a status of NEW. That is why // we can just check out  everything here without worrying // about losing anything.",DEFECT
+"/**
+     * TODO: Document!
+     *
+     * @deprecated for 0.28 by tfmorris.  Use
+     * {@link #UMLActivityDiagram(String, Object, GraphModel)}.
+     */",DOCUMENTATION
+// TODO: i18n,IMPLEMENTATION
+"// TODO: Need to enhance the index dialog to allow specifying storage option. For now just accept the // default for the index access method. // valuesMap.put(""indexType"", ""USING BTREE"");",IMPLEMENTATION
+"// TODO: maybe should stop at first, or find highest priority.",IMPLEMENTATION
+"// Cast to int required as Dimension::setSize(double,double) // doesn't appear to do anything in JDK1.2.2.",DEFECT
+// TODO: put these nil guards into tree (bigger than I want to do right now),IMPLEMENTATION
+// TODO Update this after old tests pass and then update the old tests to reflect this change. //,TEST
+// TODO: Is this removed from UML2 ?,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+"/*
+         * The following types are not supported in RDMS/JDBC and therefore commented out.
+         * However, in some cases, mapping them to CHARACTER columns works
+         * for many applications, but does not work for all cases.
+         */",DEFECT
+// TODO support real numbers,IMPLEMENTATION
+// TODO Can't see anything in SPEC,DOCUMENTATION
+"/**
+     * TODO: Document! What does this do?  Interacts with event pump in some manner
+     * 
+     * @param objects new objeccts
+     */",DOCUMENTATION
+// TODO: not in UML 2,DEFECT
+"/**
+     * If the property that this comboboxmodel depicts is changed in the UML
+     * model, this method will make sure that the changes will be
+     * done in the combobox-model equally. <p>
+     * TODO: This function is not yet completely written!
+     *
+     * {@inheritDoc}
+     * @see java.beans.PropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent)
+     */",IMPLEMENTATION
+// installColorsAndFont needs to be run twice. Background and foreground // colors only work if run after the super call but font only works if run // before the super call. May be a bug in JDK 1.4,DEFECT
+"/**
+     * TODO: this is not done yet. Eventually this will also
+     * feed the rational log.
+     */",IMPLEMENTATION
+"// TODO: This should really be coded the other way round, // to only act on associations which are important for // representing the current perspective (and to only act // on a single end of the association) - tfm",IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+"//TODO: if we support multiple fetch groups, we would need //      to clone the set of lazy properties!",IMPLEMENTATION
+// We know this fails - Bug# 1700093,DEFECT
+// Settings; readResolve sets these from the server/client values as appropriate // TODO would be nice to make these final; not 100% sure volatile is needed as not changed after creation,DESIGN
+// NOTUSED private String chosenFile;,DESIGN
+"/**
+     * Create an empty but initialized instance of a UML TemplateParameter.
+     *
+     * @return an initialized UML TemplateParameter instance.
+     * TODO: This needs an extra parameter to specify the model/extent where
+     * the new element should be created.
+     */",DESIGN
+// TODO: don't require pop,DEFECT
+// TODO: Mark diagram/project as dirty?,IMPLEMENTATION
+"/*
+            * Fails on DB2 8.1 for Linux 
+            * However, Windows 8.1 fixpak 14 driver (2.10.52) works without 
+            * exception
+            * Also, Linux 9.0.1 server with 3.1.57 driver works fine as well
+            */",DEFECT
+// TODO: @author fdietz replace with regular expression,IMPLEMENTATION
+// not needed,IMPLEMENTATION
+// TODO: What other non-ModelElement types do we need to handle here?,DESIGN
+"/* TODO: Why does it fail for changing
+             * the name of an associationend?
+             *  Why should it pass? */",TEST
+// defer argument checking...,DESIGN
+"// looks bad with the OS X L&F, apparently...",DEFECT
+// TODO: This should be using internalGetAllRealizedInterfaces(),DEFECT
+"/* TODO: Is this a good way of handling nested notation?
+                     * The following fails the tests:
+                     * new TransitionNotationUml(t).parse(line);
+                     */",IMPLEMENTATION
+"/**
+     * TODO: This functionality is in the worn place. We should be able to
+     * call setVisible on the compartment itself and then this class should
+     * react to that event.
+     * Improvements will follow in later releases.
+     * Hence this method should not be considered stable for module developers.
+     * @param compartment the compartment to be changed
+     * @param isVisible true if the attribute compartment is visible
+     */",DESIGN
+"/**
+     * A specialist Selection class for FigPartitions.
+     * This ensures that all swimlanes are the same length (ie height).
+     * TODO: Make sure that all swimlanes appear side by side (UML spec
+     * states ""separated from neighboring swimlanes by vertical solid
+     * lines on both sides"".
+     * TODO: Allow drag of the west and east edge to resize both the selected
+     * Fig and the fig connected to that side.
+     * TODO: Show NorthWest and SouthWest handle only on leftmost swimlane.
+     * TODO: Show NorthEast and SouthEast handle only on rightmost swimlane.
+     * @author Bob
+     */",IMPLEMENTATION
+// TODO: Mark diagram/project as dirty?,IMPLEMENTATION
+"/**
+     * The event to fire.
+     *
+     * TODO: Investigate! Is the purpose really to let the next call to
+     * {@link #firePropertyChanged(String, Object, Object)} fire the old
+     * event again if the previous invocation resulted in an exception?
+     * If so, please document why. If not, fix it.
+     */",DOCUMENTATION
+"/**
+ * Well-formedness rule for Package. Check that the alias for an imported
+ * element doesn't conflict with any existing name. Section 4.14.3.3 of UML 1.4
+ * spec.
+ * <p>
+ * Other types of name conflicts in a Namespace are checked by
+ * {@link CrNameConflict}.
+ * <p>
+ * TODO: MVW: If an Alias is the same as another class' name, then this critic
+ * fires, but the explanation and wizard are wrong!
+ */",DOCUMENTATION
+//TODO: is this right??,DESIGN
+// TODO: don't require pop,DEFECT
+// TODO: confirm expected args are IRubyObject (or similar),DESIGN
+"// TODO do tests for navigation to association classes (8.5.5), // even though it is not yet supported",TEST
+"/**
+ * The dialog that allows the user to go to any diagram in the project
+ * by doubleclicking on it.<p>
+ *
+ * This dialog is not modal, and can stay open while the user
+ * is working on the model. It is even possible to open multiple
+ * of these dialogs, although the purpose of such useraction eludes me.<p>
+ *
+ * TODO: This dialog should have multiple tabs named ""Help"", ""Diagram"",
+ * ""Classifier"", ""StateVertex"", etc. Which would allow the user to go to other
+ * things than diagrams.
+ *
+ * @author MVW
+ *
+ */",DESIGN
+"// Does this dialect support FOR UPDATE OF, allowing particular rows to be locked?",DESIGN
+// hack to skip processing,DESIGN
+// TODO should we allow null for non-primitive types?,DESIGN
+"/* TODO: If this is an ordered list, then you have to
+                        add in the right location! */",DEFECT
+"// TODO: ask the user if they want to ""undo"" the changes that the  // paste made.  Alternatively show them the specific problem and  // let them fix it.  Then allow them to retry the operation, starting // from the point at which the previous operation failed.",IMPLEMENTATION
+// TODO: Maybe the exception strings should be internationalized,IMPLEMENTATION
+// TODO: MRI also can hadle Bignum here,IMPLEMENTATION
+// TODO ? perhaps note connection so it can be disconnected at end of test?,IMPLEMENTATION
+// TODO: make it cross runtime safe by COW or eager copy,IMPLEMENTATION
+// TODO: Why aren't we throwing an exception here? // Returning null results in NPE and no explanation why.,IMPLEMENTATION
+// defer argument checking...,DESIGN
+"// TODO: build arg list based on number of args, optionals, etc",IMPLEMENTATION
+// TODO: Why aren't we throwing an exception here? // Returning null results in NPE and no explanation why.,IMPLEMENTATION
+//TODO i18n: GEF needs to pass us back the description // of what is being done.,DEFECT
+// Empty implementation.,IMPLEMENTATION
+//TODO add tests for ReportSaveGraphics,TEST

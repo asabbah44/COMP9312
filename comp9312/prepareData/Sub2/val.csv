@@ -1,0 +1,280 @@
+text,label
+"// TODO: This exception will be thrown during autoscrolling // when the edge of the canvas is reached causing either // the width or height to be ""adjusted"" to a negative value",DEFECT
+//DMS handle this well.,DESIGN
+// TODO: Do we have any potential consumers of the unversioned name outside // of the notation subsystem?,IMPLEMENTATION
+// TODO: Add Up/Down buttons to control the ordering of items,IMPLEMENTATION
+// TODO: use the destination database type to derive a format // that is acceptable.,IMPLEMENTATION
+"// Bug 124306: we should rely on XMLCalendar to normalize Dave value, to ensure that all Date value // fields are taken into account.",DEFECT
+// This works only on JDK 1.5 // With JDK 1.4.x fonts will be bold for all SwingSet themes. // See also SwingSet2 demos in JDK 1.4 and JDK 1.5,DEFECT
+// TODO : remove these last two as batcher is no longer managing connections,DESIGN
+"// some messy, complex stuff here, since createCriteria() can take an // aliased path, or a path rooted at the creating criteria instance",DESIGN
+// Race condition here...,DEFECT
+// not implemented yet,IMPLEMENTATION
+// TODO: We have some quirk that the a baseClass addition or // removal from a steroetype comes back as an AttributeChangeEvent // rather than an AssociationChangeEvent. This needs further // investigation to see if this can be made consistent.,DESIGN
+// TODO: not implemented,IMPLEMENTATION
+// TODO: Document why we catch this.,DOCUMENTATION
+// real stupid recreation of whole list model // -> replace with id-based listmodel update,DESIGN
+"/* This doesn't look pretty and mode line should
+			 * probably be split up into seperate
+			 * components/strings
+			 */",DESIGN
+//TODO - move to JOrphanUtils?,DESIGN
+//FB TBD can we come up with a better algorithm for choosing the default label feature?,DESIGN
+"// assume that the row was not there since it previously had only null // values, so do an INSERT instead //TODO: does not respect dynamic-insert",DEFECT
+//TODO: Test Mac keyboard accelerator changes done here by mlivingstone // shortcut key,TEST
+// SSS FIXME: What happens to the add class in this case??,DESIGN
+// TODO: These 2 should be handled with an Iterator.,DESIGN
+// Changed in UML 2.1 - Component with <<subsystem>> stereotype // TODO: We should deprecate this?,DESIGN
+// TODO: ruby locks the string here,IMPLEMENTATION
+//TODO: look at the owning property and check that it  //      isn't lazy (by instrumentation),DESIGN
+//ie. the subquery! yuck!,DESIGN
+"// TODO - removes the nodes from the CheckDirty map - should it be done later, in case some can't be removed?",DEFECT
+"// TODO: ask the user if they want to ""undo"" the changes that the  // paste made.  Alternatively show them the specific problem and  // let them fix it.  Then allow them to retry the operation, starting // from the point at which the previous operation failed.",IMPLEMENTATION
+"//put() has nowait semantics, is this really appropriate? //note that it needs to be async replication, never local or sync",DESIGN
+// TODO implement validation,IMPLEMENTATION
+// TODO: We may want to restrict the list to parameters which  // conform to the following WFR: //              parameter.type = ofstype //              or (parameter.kind = #in //              and ofstype.allSupertypes->includes(type)) //              or ((parameter.kind = #out or parameter.kind = #return) //              and type.allSupertypes->includes(ofstype)) //              or (parameter.kind = #inout //              and ( ofstype.allSupertypes->includes(type) //              or type.allSupertypes->includes(ofstype)))),DESIGN
+// JASON: Do we need these?,DESIGN
+// this class is not very fast...,DEFECT
+// FIXME: This is almost entirely duplicated from Main.java,DESIGN
+// defer argument checking...,DESIGN
+// TODO: don't require pop,DEFECT
+"// TODO: A better implementation would be to batch events into // logical groups and update the tree one time for the entire // group, synchronizing access to the model repository so that // it stays consistent during the query.  This would likely // require doing the updates in a different thread than the // event delivery thread to prevent deadlocks, so for right now // we protect ourselves with try/catch blocks.",IMPLEMENTATION
+// HACK: reading encoding,DESIGN
+// TODO: move this to components -- the only reason why it's in core is because // it's used as a guinea pig by a couple of tests.,DESIGN
+// TODO: Ruby locks the string here,DEFECT
+"/* TODO: Support navigability. 
+     * The code below causes and exception in FigAssociationEndAnnotation. */",DEFECT
+"/**
+     * Get value from current scope or one of its captured scopes.
+     * 
+     * FIXME: block variables are not getting primed to nil so we need to null check those
+     *  until we prime them properly.  Also add assert back in.
+     * 
+     * @param offset zero-indexed value that represents where variable lives
+     * @param depth how many captured scopes down this variable should be set
+     * @return the value here
+     */",DEFECT
+"// FIXME: Ideally JavaObject instances should be marshallable, which means that // the JavaObject metaclass should have an appropriate allocator. JRUBY-414",DESIGN
+// not used,DESIGN
+//set the property values // Note: this may have already been done by another instance of // this DataType created to handle a different column.,DESIGN
+// TODO: Once we're happy that JFCUtilities is no longer required,DESIGN
+// todo : potentially look at optimizing these two arrays,DESIGN
+"/* TODO: We should use implicit nil for body, but problem (punt til later)*/",DEFECT
+// TODO: decompose getJavaPackageModule so we don't parse fullName,DESIGN
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * Constructor
+	 * 
+	 * @param String
+	 *            Name
+	 *  
+	 */",DOCUMENTATION
+"//TODO: We probably should have a StatisticsNotPublishedException, to make it clean",DESIGN
+// TODO: full-precision divmod is 1000x slower than MRI!,DEFECT
+"// if we get here, we found a matching method, use it // TODO: choose narrowest method by continuing to search",DESIGN
+// TODO: Is this removed from UML2 ?,IMPLEMENTATION
+"// FIXME: do we really want 'declared' methods?  includes private/protected, and does _not_ // include superclass methods",DESIGN
+"//TODO: optimize away this lookup for entities w/o unsaved-value=""undefined""",IMPLEMENTATION
+"/**
+ * TODO:
+ * comment field doesn't include all options yet
+ */",IMPLEMENTATION
+"/**
+     * TODO: Rewrite this test using reflection against Uml class.
+     * 
+     * This code has been commented out since September 2003
+     */",TEST
+// TODO: Test if the generated string is correct.,TEST
+// Need better test for Windows,TEST
+// SSS FIXME: Is this correctly placed ... at the end of the loop iteration?,DESIGN
+// TODO Part of this is copied from ActionDeleteModelElement. We // maybe need some subclass for common code.,DESIGN
+// FIXME: not very efficient,DESIGN
+// JASON: Do we need this? //		getSQLPanel().selected();,DESIGN
+"// TODO: this needs to be improved // even for nongui calling, the config panel needs to be initialized:",IMPLEMENTATION
+"// some other primitive // should avoid calling methods on primitive, as we do // in Name (can't treat primitive like an object message) // but the hole is useful right now.",DESIGN
+// FIXME:  it probably makes sense to allocate an array of 256 Colors // and lazily populate this array...,DESIGN
+"/**
+ * A BufferInputStream that is aware of XML structure.
+ * It searches for the first occurrence of a named tag
+ * and reads only the data (inclusively) from that tag
+ * to the matching end tag or it can search for the first
+ * occurrence of a named tag and read on the child tags.
+ * The tag is not expected to be an empty tag.
+ * <p>
+ * TODO: This is hardwired to assume a fixed single byte
+ * character encoding.  It needs to be updated to handle different
+ * encodings, including multi-byte encodings. - tfm 20070607
+ *
+ * @author Bob Tarling
+ */",DESIGN
+// This is a bit hard coded but if we use _scale here // some number displays go crazy.,DESIGN
+"// we should be able to find the comma because the range for enum constants includes all preceding comments up to the previous constant // if TargetSourceRangeComputer of ASTRewrite changes, this logic should change to skip comments // see org.eclipse.emf.codegen.merge.java.facade.ast.CommentAwareSourceRangeComputer#getEnumConstantSourceRange(ASTNode)",IMPLEMENTATION
+//FIXME we should really assert a value,DESIGN
+"//aliasRefNode.resolve( false, false, aliasRefNode.getText() ); //TODO: is it kosher to do it here? //TODO: is it kosher to do it here?",DESIGN
+// TODO should level be more than debug ?,DESIGN
+"/* Disabled since it gives various problems: e.g. the toolbar icons
+         * get too wide. Also the default does not give the new java 5.0 looks.
+        Component tree = ProjectBrowser.getInstance();
+        SwingUtilities.updateComponentTreeUI(SwingUtilities.getRootPane(tree));
+        */",DEFECT
+//do we even really need this? the update will fail anyway....,DESIGN
+"/**
+         * Compute the border point of the ellipse that is on the edge
+         *   between the stored upper left corner and the given parameter.<p>
+         *   
+         *   TODO: Once we are at GEF version 0.13.1M4, this method 
+         *   and in fact the whole class can be 
+         *   removed, since it was taken over by GEF in revision 1279.
+         *
+         * @param anotherPt  The remote point to which an edge is drawn.
+         *
+         * @return           The connection point on the boundary of the
+         *                   ellipse.
+         */",DESIGN
+"// Make a read-only copy of the listeners list so that reentrant calls // back to add/removeListener won't mess us up. // TODO: Potential performance issue, but we need the correctness - tfm",IMPLEMENTATION
+// TODO fix this when there is a real implementation,DESIGN
+"/*
+     * TODO add tests to check for: - name clash - long option abbreviations
+     * (match shortest unique abbreviation)
+     */",TEST
+// CREATE ENTITIES // FIXME:  these methods should be defined,DESIGN
+// yuck!,DESIGN
+"/**
+	 * TODO: Move this to IOUtilities Extracts the specified zip file to the specified output directory.
+	 * 
+	 * @param zipFile
+	 * @param outputDirectory
+	 * @throws IOException
+	 */",DESIGN
+// TODO: Shouldn't we throw an exception here?!?!,DEFECT
+// TODO: don't require pop,DEFECT
+// TODO: Generalize extension and remove critic specific stuff,DESIGN
+// TODO: When message are can have some text in red (error) // and some normal then put out errors in red.,IMPLEMENTATION
+// TODO: Should we require a GraphModel in the constructor since // our implementations of setNamespace are going to try and set // the namespace on the graphmodel as well?,IMPLEMENTATION
+// TODO: The above doesn't work reliably in a constructor. // We need a better way of getting default fig settings  // for the owning project rather than using the  // project manager singleton. - tfm,DESIGN
+// unused in parent,DESIGN
+"// now we handle some special cases - yes, UGLY code alert!",DESIGN
+// defer argument checking,DESIGN
+// TODO: This isn't right,DESIGN
+// defer argument checking,DESIGN
+"// TODO: ActionState, CallState, and SubactivityState have been // replaced in UML 2.0 by explicitly modeled Actions",DESIGN
+// TODO: add serialization support for images,IMPLEMENTATION
+// result = this.workingCalendar.getTimeInMillis(); // preceding code won't work with JDK 1.3,DEFECT
+// TODO: must override in RubyModule to pick up constants,IMPLEMENTATION
+// Remember to change this when the class changes ...,DESIGN
+"//TODO: passing null here, because this method is not really used for DOM4J at the moment //      but it is still a bug, if we don't get rid of this!",DEFECT
+//Icky workaround for MySQL bug:,DESIGN
+// TODO should really return most specific (i.e. longest) match.,DESIGN
+"/**
+     * Searches for a type/classifier with name s. If defineNew is
+     * true, a new type is defined if the type/classifier is not
+     * found. The newly created type is added to the currentNamespace
+     * and given the name s.
+     * <p>
+     * TODO: Move to Model subsystem - tfm 20070307
+     * 
+     * @param s the name of the type/classifier to be found
+     * @param defineNew if true, define a new one
+     * @return Classifier the found classifier
+     */",DESIGN
+// This could perhaps be a variable name,DESIGN
+"/* silly that we reference the vertical
+				   scroll bar here directly. we do this so
+				   that the horizontal scroll bar is flush
+				   with the vertical scroll bar */",DESIGN
+"// FIXME: we've cloned the chart, but the dataset(s) aren't cloned // and we should do that",DEFECT
+// TODO: Remove?  Can't be localized,DESIGN
+"/**
+ * The SSLManager handles the KeyStore information for JMeter. Basically, it
+ * handles all the logic for loading and initializing all the JSSE parameters
+ * and selecting the alias to authenticate against if it is available.
+ * SSLManager will try to automatically select the client certificate for you,
+ * but if it can't make a decision, it will pop open a dialog asking you for
+ * more information.
+ *
+ * TODO: does not actually prompt
+ *
+ */",DEFECT
+// TODO: Before adding a new region make the last region // its minimum size (smallest size that will still // contain all enclosed),IMPLEMENTATION
+// TODO: consider inherited attributes?,IMPLEMENTATION
+"/**
+     * A specialist Selection class for FigPartitions.
+     * This ensures that all swimlanes are the same length (ie height).
+     * TODO: Make sure that all swimlanes appear side by side (UML spec
+     * states ""separated from neighboring swimlanes by vertical solid
+     * lines on both sides"".
+     * TODO: Allow drag of the west and east edge to resize both the selected
+     * Fig and the fig connected to that side.
+     * TODO: Show NorthWest and SouthWest handle only on leftmost swimlane.
+     * TODO: Show NorthEast and SouthEast handle only on rightmost swimlane.
+     * @author Bob
+     */",IMPLEMENTATION
+"/*
+         * Since this is (hopefully) a temporary solution, and nobody ever looks
+         * at the type of notation event, we can simplify from sending every
+         * existing event to one event only. But since there is no catch-all
+         * event defined, we just make one up. Rationale: reduce the number of
+         * total refreshes of the drawing.
+         */",DESIGN
+"/* TODO: support other types of drag.
+         * Here you set the owner by dragging into a namespace.
+         * An alternative could be to drag states into composite states...
+         */",IMPLEMENTATION
+"// TODO: In UML 2.0, ClassifierRole, AssociationRole, and // AssociationEndRole have been replaced by the internal // structure of the Collaboration",DESIGN
+// TODO: @author fdietz replace with regular expression,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+/* TODO add javadocs */,DOCUMENTATION
+// TODO: Is this really needed?,DESIGN
+// defer argument checking...,DESIGN
+"/* TODO: Make this work when the given stereotype
+     * has more than one baseclass.
+     * TODO: Currently only works for stereotypes where the baseclass is
+     * equal to the given one - inheritance does not work.*/",DESIGN
+// TODO display warning dialog as this can take some time,DEFECT
+// TODO: Is this adequate for finding profiles in Java WebStart jars? //       - tfm,DESIGN
+// TODO // I'm concerned that folders will often return 401 or even 403. // So should we consider something to exist even though access if unauthorized or forbidden? //,DESIGN
+/* FIX: set the application name for Mac OS X */,IMPLEMENTATION
+"/**
+     * Get value from current scope or one of its captured scopes.
+     * 
+     * FIXME: block variables are not getting primed to nil so we need to null check those
+     *  until we prime them properly.  Also add assert back in.
+     * 
+     * @param offset zero-indexed value that represents where variable lives
+     * @param depth how many captured scopes down this variable should be set
+     * @return the value here
+     */",DEFECT
+// Remember to change this when the class changes ...,DESIGN
+"// This really should be Long.decode, but there isn't one. As a result, // hex and octal literals ending in 'l' or 'L' don't work.",DEFECT
+"/**
+     * A modelelement has been changed.
+     * Now we give it priority to be checked by the critics ASAP.
+     *
+     * TODO: why is is synchronised?
+     * TODO: what about when objects are first created?
+     *
+     * @param dm the design material
+     * @param reason the reason
+     */",DESIGN
+"// Workaround for a bug in Sun's JDK 1.5.x, see // http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6303753",DESIGN
+"// FIXME: This is currently only here because of some problems with IOOutputStream writing to a ""bare"" runtime without a proper scope",DESIGN
+// todo : throw exception?  maybe warn if not the same?,DESIGN
+// FIXME: I got a bunch of NPEs when I didn't check for nulls here...HOW?!,DEFECT
+// Use a little trick to find out where Argo is being loaded from. // TODO: Use a different resource here. ARGOINI is unused and deprecated,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+// TODO: I18n,IMPLEMENTATION
+"/**
+     * Get value from current scope or one of its captured scopes.
+     * 
+     * FIXME: block variables are not getting primed to nil so we need to null check those
+     *  until we prime them properly.  Also add assert back in.
+     * 
+     * @param offset zero-indexed value that represents where variable lives
+     * @param depth how many captured scopes down this variable should be set
+     * @return the value here
+     */",DEFECT
+// Split the methods into constructors and regular method lists,DESIGN
+// @todo this is duplicating TestResult information. Only the time is not // part of the result. So we'd better derive a new class from TestResult // and deal with it. (SB),TEST
+// we consume this to work around the bug // where A+TAB window switching activates // the menu bar on Windows.,DESIGN
+"// TODO: The size of text figs, which is what we care about most, // isn't computed correctly by GEF. If we got ambitious, we could // recompute a proper size ourselves.",DEFECT

@@ -1,0 +1,122 @@
+text,label
+// TODO: Move to GEF,DESIGN
+// TODO: Using just the last piece of the ID leaves the potential for // name collisions if two linked files have the same name in different // directories,DESIGN
+// ENEBO: Very wrong,DEFECT
+// TODO implement the difference between oclIsKindOf and oclIsTypeOf,IMPLEMENTATION
+"// FIXME: vulture daemon thread prevents finalization, // find alternative approach. // vulture.start();",DEFECT
+// TODO make these separate tests?,TEST
+"/**
+     * If the property that this comboboxmodel depicts is changed in the UML
+     * model, this method will make sure that the changes will be
+     * done in the combobox-model equally. <p>
+     * TODO: This function is not yet completely written!
+     *
+     * {@inheritDoc}
+     * @see java.beans.PropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent)
+     */",IMPLEMENTATION
+// TODO: Review all callers to make sure that they localize the title,IMPLEMENTATION
+// TODO - perhaps save other items such as headers?,DESIGN
+//TODO: this requires that the collection is defined after the //      referenced property in the mapping file (ok?),DEFECT
+// TODO: This is going to cause the color to be reset on a refresh,IMPLEMENTATION
+"// TODO: Add IR instructions for checking method arity! // s.getVariableCompiler().checkMethodArity(required, opt, rest);",IMPLEMENTATION
+"/* TODO: We should use implicit nil for body, but problem (punt til later)*/",DEFECT
+"// For some reason ListSet.equals() allocates a lot of memory, well // some memory at least. Lets try to avoid that when not needed by // invoking this test only when the two previous tests are not decisive.",TEST
+//TODO: design new lifecycle for ProxyFactory,DESIGN
+// unused in parent,DESIGN
+// not needed,IMPLEMENTATION
+"/**
+     * Changes the font for all Figs contained in the given FigGroup. <p>
+     *
+     *  TODO: In fact, there is a design error in this method:
+     *  E.g. for a class, if the name is Italic since the class is abstract,
+     *  then the classes features should be in Plain font.
+     *  This problem can be fixed by implementing
+     *  the updateFont() method in all subclasses.
+     *
+     * @param fg the FigGroup to change the font of.
+     */",DESIGN
+// Some LAFs don't work under Java 6 or later.,DEFECT
+//TODO: unnecessary for databases with ANSI-style joins,IMPLEMENTATION
+// TODO: Remove?  Can't be localized,DESIGN
+"// looks bad with the OS X L&F, apparently...",DEFECT
+//TODO mappings.getLogicalTableName(ownerTable),IMPLEMENTATION
+// end hack,DESIGN
+//TODO: check that entry.getIdentifier().equals(requestedId),IMPLEMENTATION
+"// Allow the mimetype of the file to control the content type // This is not obvious in GUI if you are not uploading any files, // but just sending the content of nameless parameters // TODO: needs a multiple file upload scenerio",IMPLEMENTATION
+// TODO Document the reason for this,DOCUMENTATION
+// TODO make an assert here,TEST
+"//no need to take a snapshot - this is a  //performance optimization, but not really //important, except for entities with huge  //mutable property values",DEFECT
+// TODO: make sure it's really safe to not to copy it,DEFECT
+"/* TODO: support other types of drag.
+         * Here you set the owner by dragging into a namespace.
+         * An alternative could be to drag states into composite states...
+         */",IMPLEMENTATION
+//TODO: algorithm is n^2 in number of nodes,DEFECT
+"// UML 1.4 spec is ambiguous - English says no Association or  // Generalization, but OCL only includes Association //                || Model.getFacade().isAGeneralization(dm)",DOCUMENTATION
+// TODO: don't require pop,DEFECT
+"// TODO: We don't really want to do the following, but I'm not sure // what depends on it - tfm - 20070725",DEFECT
+// TODO: we didn't check the height yet,DEFECT
+//TODO (@author fdietz):  i18n,IMPLEMENTATION
+// Convert to bounding box // Very screwy!  GEF sometimes uses center and sometimes upper left // TODO: GEF also positions text at the nominal baseline which is // well inside the bounding box and gives the overall size incorrectly,DESIGN
+// not needed,IMPLEMENTATION
+// FIXME: after jump is not in here.  Will if ever be? //Label afterJmp = new Label();,IMPLEMENTATION
+"// TODO: need to isolate the ""current"" thread from class creation",DEFECT
+// TODO: This is updating model on a per character basis as // well as unregistering/reregistering event listeners every // character - very wasteful - tfm,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+"// TODO: we loose encoding information here, fix it",DEFECT
+//FB TBD filter out volatile and other inappropriate links?,IMPLEMENTATION
+// TODO: Ruby unlocks the string here,IMPLEMENTATION
+"// Move any i18n files that are located in the core downloads dir to the i18n downloads dir. The spring // application context will not load properly (for some unknown reason) when there are i18n jars in the // classpath. So as a work-around, we simply ensure that they are where they should be anyway. // Previously we were not as careful about this, so it is possible that i18n jars were copied into the // core downloads directory.",IMPLEMENTATION
+/* TODO: Test this. */,TEST
+"// TODO: the type of the model element used in a type parameter // (ie the formal) needs to match the actual parameter that it // gets replaced with later.  This code is going to restrict that // to always being a Parameter which doesn't seem right, but I // don't have time to debug it right now. - tfm - 20090608",DESIGN
+// BAD - Converting a URL to a file this way is problematic when the file path contains spaces,DESIGN
+// TODO: Ruby re-checks that the buffer string hasn't been modified,IMPLEMENTATION
+// crusty workaround,DESIGN
+// TODO (@author fdietz): make i18n!,IMPLEMENTATION
+"// SSS FIXME: This doesn't preserve original order of when clauses.  We could consider // preserving the order (or maybe not, since we would have to sort the constants first // in any case) for outputing jump tables in certain situations. // // add body to map for emitting later",DEFECT
+// Warning: Null callstack here.  Don't think we need // a stack trace to indicate how we sourced the method.,DEFECT
+"/**
+     * FIXME Per the RegionFactory class Javadoc, this constructor version
+     * should not be necessary.
+     * 
+     * @param props The configuration properties
+     */",DESIGN
+"/* TODO: The Quickguide also mentions:
+         *   -open <arg>     open given file on startup
+         *   -print <arg>    print given file on startup (and exit)
+         * Why are these gone? */",DOCUMENTATION
+// needs to be improved !!!,DESIGN
+"/**
+ * TODO: Move all code other than for window creation up to AliasWindowManager
+ * Factory to handle creation of maintenance sheets for SQL Alias objects.
+ *
+ * @author <A HREF=""mailto:colbell@users.sourceforge.net"">Colin Bell</A>
+ */",DESIGN
+// TODO: must override in RubyModule to pick up constants,IMPLEMENTATION
+"/*
+     *
+     * A Dom tree panel for to display response as tree view author <a
+     * href=""mailto:d.maung@mdl.com"">Dave Maung</a> 
+     * TODO implement to find any nodes in the tree using TreePath.
+     *
+     */",DESIGN
+// FIXME can't use static; would interfere with other runtimes in the same JVM,DEFECT
+"/**
+     * Make use of the default visibility, which is public...
+     * TODO: centralise this knowledge.
+     *
+     * @see org.argouml.uml.diagram.ui.AbstractActionRadioMenuItem#valueOfTarget(java.lang.Object)
+     */",DOCUMENTATION
+// TODO: Fix this so that new sequence diagrams are tested,TEST
+// TODO: may not work on all OSes?,DEFECT
+//TODO: validate existing of property with the chosen name. (secondpass ),IMPLEMENTATION
+//TODO: make this handle multiple collection roles!,IMPLEMENTATION
+//ie. the subquery! yuck!,DESIGN
+// hack since HelpViewer needs a URL...,DESIGN
+// TODO: Considering all delete events to be valid like below // is going to cause lots of unecessary work and some problems,DEFECT
+// TODO: not implemented,IMPLEMENTATION
+// should implement getMinimumLength() -- any ideas?,DESIGN
+"// TODO this bit of code needs to be tidied up // Unfortunately ModuleController is in components, not core // Bug 47165",DESIGN
+//            Category.getRoot().getLoggerRepository().setThreshold(Level.OFF); // TODO: Find the proper implementation in java.util.logging API	    ,IMPLEMENTATION
+// TODO: not used - make private?,DESIGN
+"// TODO: Any special handling for null names? append will use ""null""",IMPLEMENTATION

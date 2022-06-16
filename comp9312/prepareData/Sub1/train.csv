@@ -1,0 +1,1439 @@
+text,label
+// TODO: This is probably an undesirable side effect unless the user // confirms it.  Placing an element on a second diagram is going to // potentially change its namespace. - tfm 20061208,DEFECT
+// TODO: Store BEGIN and END information into this node,IMPLEMENTATION
+// TODO: Once we're happy that JFCUtilities is no longer required,DESIGN
+// TODO: don't require pop,DEFECT
+"// dialogs fuck things up if a menu is visible, etc! //new BeanShellErrorDialog(view,e);",DEFECT
+"// TODO: Adding implicit nils caused multiple problems in compiler -- revist after landing //assert bodyNode != null : ""bodyNode is not null"";",DEFECT
+// FIXME:  implement this...,IMPLEMENTATION
+// TODO: implement,IMPLEMENTATION
+// Feb 4 2000 5:30 PM // Catch Throwable here rather than Exception. // Kaffe's implementation of Runtime.exec throws java.lang.InternalError.,DEFECT
+// TODO: @author fdietz replace with regular expression,IMPLEMENTATION
+// Update attached node figures // TODO: Presumably this should only happen on a add or remove event,DEFECT
+// EATM must fix isSet bits.,DEFECT
+// FIXME: don't use RubyIO for this,IMPLEMENTATION
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * Constructor
+	 *  
+	 */",DOCUMENTATION
+// TODO: Only occurrence of isConcurrent in UML 2.1.1 is in index // it's not on the page that is indexed,DEFECT
+"// There is a better way to save the context. This shouldn't // delegate to next, it's for backward compatibility only.",DESIGN
+// not needed,IMPLEMENTATION
+// not needed,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+// FIXME check if the id is a correct file name! ,DEFECT
+// Does this dialect support the UNIQUE column syntax?,DESIGN
+"/*
+                 * Fix bug: -D arg1=arg2 was causing parse error; however
+                 * --define arg1=arg2 is OK This seems to be because the parser
+                 * skips the terminator for the long options, but was not doing
+                 * so for the short options.
+                 */",DESIGN
+"/**
+     * Removes a listener, eventtype pair from the listener list.
+     *
+     * TODO: replace the listener implementation with a EventListenerList
+     * for better performance
+     *
+     * @param event the event to which the listener will not listen any more
+     * @param listener the listener to be removed
+     */",IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+// TODO: don't require pop,DEFECT
+// If we are not visible most likely we're being deleted. // TODO: This indicates a more fundamental problem that  // should be investigated - tfm - 20061230,DEFECT
+// Race condition here...,DEFECT
+"/* TODO: We may return something useful when the
+         * relocate() has been implemented, like
+         * all StateMachines that are not ActivityGraphs. */",IMPLEMENTATION
+"//TODO: passing null here, because this method is not really used for DOM4J at the moment //      but it is still a bug, if we don't get rid of this!",DEFECT
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * Constructor
+	 * 
+	 * @param String
+	 *            Name
+	 * @param Hashtable
+	 *            Attributes
+	 *  
+	 */",DOCUMENTATION
+// TODO: Convert this to some sensible logging,IMPLEMENTATION
+"// TODO: check if too many open files, GC and try again",IMPLEMENTATION
+// not needed,IMPLEMENTATION
+// TODO : should remove this exposure //  and have all references to the session's batcher use the ConnectionManager.,DESIGN
+// TODO: {name} is not expanded for diagram objects,DEFECT
+/* TODO add javadocs */,DOCUMENTATION
+"/* TODO: Replace the functioncall in the next line
+                 * by .requestFocusInWindow() once
+                 * we do not support Java 1.3 any more.
+                 */",IMPLEMENTATION
+//TODO (@author fdietz): associate help with button and root pane,DESIGN
+// FIXME: not correct exception,DEFECT
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * @return Vector
+	 *  
+	 */",DOCUMENTATION
+// FIXME: Broken but behaving,DEFECT
+// note that this timestamp is not correct if the connection provider // returns an older JDBC connection that was associated with a // transaction that was already begun before openSession() was called // (don't know any possible solution to this!),DEFECT
+"// TODO: Ruby reuses this logic for other ""write"" behavior by checking if it's an IO and calling write again",DESIGN
+// TODO: We really want this class to have package scope however the reflection,DESIGN
+"/**
+ * Test read compressed models, mainly to verify the correct reading of
+ * AndroMDA profiles.
+ * TODO: Move this test into argouml base when we will want to read also zip
+ * file.
+ *
+ * @author lmaitre
+ */",TEST
+// not sure whether this test is needed but cost nothing to put. // hope it will be reviewed by anybody competent,TEST
+// FIXME: set up a call configuration for this,DESIGN
+"// TODO: This only works if the item is visible // (all its parents are expanded) // getExpandedDescendants, makeVisible",DEFECT
+//DMS this is totally untested.,TEST
+"/**
+	 * Called when app shutdown.
+	 * TODO: Put throws clause back in
+	 */",IMPLEMENTATION
+// not needed,IMPLEMENTATION
+// FIRST_MONDAY_AFTER_1900 = cal.getTime().getTime(); // preceding code won't work with JDK 1.3,DEFECT
+"/**
+     * The list with objects that should be shown in the combobox.
+     * TODO: Using a list here forces a linear search when we're trying to add
+     * a new element to the model which can be very slow for large models.
+     */",IMPLEMENTATION
+"//TODO: never reached, since getTypeName() actually throws an exception!",DESIGN
+// TODO: Review - priority of public ID vs system ID has been reversed // from original implementation,IMPLEMENTATION
+"/**
+	 * Gets the location of an external commandline tool.
+	 * <p>
+	 * TODO: test this method
+	 * 
+	 * @param toolID
+	 *            id of tool
+	 * @return location of tool
+	 */",TEST
+"/**
+     * Parse a Message textual description.<p>
+     *
+     * TODO: - This method is too complex, lets break it up. <p>
+     *
+     * @param umlMessage the UML Message object to apply any changes to
+     * @param s   the String to parse
+     * @throws ParseException
+     *            when it detects an error in the attribute string. See also
+     *            ParseError.getErrorOffset().
+     */",DESIGN
+/* TODO: Is this a good way of handling nested notation? */,IMPLEMENTATION
+"//TODO: This is assertion is disabled because there is a bug that means the //	  original owner of a transient, uninitialized collection is not known //	  if the collection is re-referenced by a different object associated //	  with the current Session //throw new AssertionFailure(""bug loading unowned collection"");",DEFECT
+// not implemented,IMPLEMENTATION
+// TODO improve the error handling,DESIGN
+// TODO: don't require pop,DEFECT
+// TODO: Needs completing - stub implementation only! - tfm,IMPLEMENTATION
+// TODO: How to let the user customize this??,DESIGN
+// TODO: don't require pop,DEFECT
+// defer argument checking,DESIGN
+// TODO: Why is this clearing the name?!?! - tfm,DEFECT
+//TODO: use these in methods above,IMPLEMENTATION
+"// FIXME: I'm not sure this is right, but the old code returned // the undef, which definitely isn't right...",DEFECT
+"/*
+		  * Algorithm
+		  * Check for any level one nullability breaks
+		  * Look at non null components to
+		  *   recursively check next level of nullability breaks
+		  * Look at Collections contraining component to
+		  *   recursively check next level of nullability breaks
+		  *
+		  *
+		  * In the previous implementation, not-null stuffs where checked
+		  * filtering by level one only updateable
+		  * or insertable columns. So setting a sub component as update=""false""
+		  * has no effect on not-null check if the main component had good checkeability
+		  * In this implementation, we keep this feature.
+		  * However, I never see any documentation mentioning that, but it's for
+		  * sure a limitation.
+		  */",DEFECT
+"/* TODO: We should use implicit nil for body, but problem (punt til later)*/",DEFECT
+"//TODO: inexact, what we really need to know is: are any outer joins used?",DEFECT
+// we have to find a cleaner way to put this output,DESIGN
+// TODO: Must we calculate the whole list?,DESIGN
+// TODO: Do we want isaUMLElement here?,IMPLEMENTATION
+// FIXME: Obvious issue that not all platforms can display all attributes.  Ugly hacks. // Using generic posix library makes pushing inspect behavior into specific system impls // rather painful.,DESIGN
+// TODO: should the constraint name simply be the column name or something more like a constraint // name?,DESIGN
+"/**
+     * Flag to indicate we are creating a new current project.
+     * TODO: This isn't a thread-safe way of doing mutual exclusion.
+     */",IMPLEMENTATION
+//TODO: currently broken for unique-key references (does not detect //      change to unique key property of the associated object) //the owner of the association is not the owner of the id,DEFECT
+"/* 
+		Apparently in some environments you can't catch the security exception
+		at all...  e.g. as an applet in IE  ... will probably have to work 
+		around 
+	*/",DEFECT
+"// TODO: It doesn't really make sense that a namespace would be // returned as part of its own contents, but that's the historical // behavior.",DESIGN
+//subList.clear(); // Sublist is supposed to share same backing store as list...TODO in RubyArray. //assertTrue(list.size() == 1);,IMPLEMENTATION
+// The application should have checked for availability at // startup. // For tests we would expect unix developers to be correctly // configured. // Replace with an assert when we are JRE1.4+,TEST
+"/*
+     * TODO: The code implementing this method is from 2003 (see issue 2171) -
+     * mechanically integrated by tfmorris in May 2007. Needs to be
+     * reviewed/updated.
+     * 
+     * @author Decki,Endi,Yayan, Politechnic of Bandung. Computer Departement
+     * method for changing text of Message
+     */",DEFECT
+// TODO: Removed from UML2 //$NON-NLS-1$,DEFECT
+"/**
+ * Tests for the DiagramSettings.
+ *
+ * TODO: Test chaining of settings.
+ *
+ * @author Tom Morris (based on TestProjectSettings by Michiel)
+ */",TEST
+"// OK, this is a hack.  Currently, when precision == scale, I have  // no way to determine if this is valid for the actual data.  The // problem comes when the source db's precision/scale are greater -  // or reported to be greater - than the precision/scale of the  // destination db.  In this case, it maximimizes both for the  // destination, causing a definition that allows 0 digits to the  // left of the decimal.  Trouble is, without looking at the actual // data, there is no way to tell if this is valid - in some cases // it will be ok (0.0000000789) in others it will not be ok (100.123). // So for now, make the scale be approx. one-half of the precision // to accomodate the most digits to the left and right of the decimal // and hopefully that covers the majority of cases.",DESIGN
+// TODO: key can't be null,DEFECT
+//TODO (@author fdietz): i18n,DESIGN
+// Entered in 0.29.3 // Prove that the test below is not needed,TEST
+"//process doesn't die properly under this combination, //thus test fails.  No workaround?",TEST
+"/**
+ * The SSLManager handles the KeyStore information for JMeter. Basically, it
+ * handles all the logic for loading and initializing all the JSSE parameters
+ * and selecting the alias to authenticate against if it is available.
+ * SSLManager will try to automatically select the client certificate for you,
+ * but if it can't make a decision, it will pop open a dialog asking you for
+ * more information.
+ *
+ * TODO: does not actually prompt
+ *
+ */",DEFECT
+// TODO: Split this into two sub-classes so that name and constNode can be specified seperately.,DESIGN
+// TODO check conformancy to specification,DOCUMENTATION
+"/**
+     * @see org.argouml.cognitive.Critic#setHeadline(java.lang.String)
+     *
+     * Set up the locale specific text for the critic headline
+     * (the one liner that appears in the to-do pane)
+     * and the critic description (the detailed explanation that
+     * appears in the to-do tab of the details pane).
+     *
+     * MVW: Maybe we can make it part of the constructor CrUML()?
+     *
+     * FIXME: why override if nobody uses?
+     */",DESIGN
+// TODO: I18N required,IMPLEMENTATION
+// not implemented yet,IMPLEMENTATION
+"/**
+     * Tests if the list with namespaces defined in getValidNamespaceClasses
+     * contains only valid namespaces.
+     *
+     * TODO: This test does not test anything, really!
+     */",TEST
+"// This is GROSS, but Java API's aren't ISO 8601 compliant at all",DESIGN
+/* TODO: Indicate the direction! */,IMPLEMENTATION
+// not needed,IMPLEMENTATION
+"// this function has a template -> restore output, apply the template and write the result out // TODO: Downcast to avoid using an interface?  Yuck.",DESIGN
+"// TODO: ActionState, CallState, and SubactivityState have been replaced // in UML 2.0 by explicitly modeled Actions",DESIGN
+// TODO: Taken from FigClassifierBoxWithAttribute to handle events // on an attribute. All this event handling should eventually be moved // to the compartment Fig for attributes,DESIGN
+// TODO: don't require pop,DEFECT
+// if this is a feature get the owner of that feature // TODO: Does anything actually make use of this? It can // cause unexpected behaviour.,DEFECT
+// TODO: Considering all delete events to be valid like below // is going to cause lots of unecessary work and some problems,DEFECT
+"/**
+ * StylePanel class which provides additional parameters for changing Text
+ * elements provided by GEF.
+ *  TODO: i18n
+ */",IMPLEMENTATION
+// TODO improve the error handling,DESIGN
+// not needed,IMPLEMENTATION
+"/*
+         * Since this is (hopefully) a temporary solution, and nobody ever looks
+         * at the type of notation event, we can simplify from sending every
+         * existing event to one event only. But since there is no catch-all
+         * event defined, we just make one up. Rationale: reduce the number of
+         * total refreshes of the drawing.
+         */",DESIGN
+// TODO: don't require pop,DEFECT
+"/* Listening only to ""remove"" events does not work...
+         * TODO: Check if this works now with new event pump - tfm
+         */",TEST
+// SSS FIXME: // // There are also differences in variable scoping between 1.8 and 1.9  // Ruby 1.8 is the buggy semantics if I understand correctly. // // The semantics of how this shadows other variables outside the block needs // to be figured out during live var analysis.,DEFECT
+"/**
+     * Get value from current scope or one of its captured scopes.
+     * 
+     * FIXME: block variables are not getting primed to nil so we need to null check those
+     *  until we prime them properly.  Also add assert back in.
+     * 
+     * @param offset zero-indexed value that represents where variable lives
+     * @param depth how many captured scopes down this variable should be set
+     * @return the value here
+     */",DEFECT
+/** Are there are available data flow facts to run this problem? SSS FIXME: Silly optimization? */,DEFECT
+// not used,DESIGN
+// TODO: don't require pop,DEFECT
+// XXX: do something?,DESIGN
+// TODO: We need some way of driving this from panel xml rather // than hard coded test,TEST
+// TODO: Get Project or other necessary context from source?? // e.getSource();,IMPLEMENTATION
+"/**
+     * Get value from current scope or one of its captured scopes.
+     * 
+     * FIXME: block variables are not getting primed to nil so we need to null check those
+     *  until we prime them properly.  Also add assert back in.
+     * 
+     * @param offset zero-indexed value that represents where variable lives
+     * @param depth how many captured scopes down this variable should be set
+     * @return the value here
+     */",DEFECT
+//TODO: create uk loaders for component properties,IMPLEMENTATION
+"// if we don't have opt args, start after args (they will be assigned later) // this is for crap like def foo(a = (b = true; 1)) which numbers b before a // FIXME: only starting after required args, since opt args may access others // and rest args conflicts with compileRoot using ""0"" to indicate [] signature.",DESIGN
+// TODO: should it remove the leftovers from other tests? //        cleanAllExtents(); //        assert getFacade().getRootElements().size() == 0;,TEST
+// FIXME: show a dialog with the error,IMPLEMENTATION
+// TODO (@author fdietz):: implement test,TEST
+//      FIXME: check how ruby 1.9 handles this,DEFECT
+// Don't know what to do otherwise,IMPLEMENTATION
+"// todo : again, how *should* this work for non-pojo entities?",DESIGN
+"// TODO: the namespace of created events is currently the model. // I think this is wrong, they should be // in the namespace of the activitygraph! //        vec.addAll( //                Model.getModelManagementHelper().getAllModelElementsOfKind( //                        Model.getFacade().getNamespace(getTarget()), //                        Model.getMetaTypes().getEvent()));",DESIGN
+"/*
+ * TODO: finish i18n
+ */",IMPLEMENTATION
+// not needed,IMPLEMENTATION
+//{{{ Methods that really shouldn't be public...,DESIGN
+// TODO somehow show progress,IMPLEMENTATION
+// FIXME: missing arity check,IMPLEMENTATION
+//TODO: handle property-ref,IMPLEMENTATION
+"/* TODO: The above statement also refreshes when 
+                         * we are not shown (to be verified) - hence 
+                         * not entirely correct. */",DEFECT
+"/* TODO: Update the old and new node above this!
+                 * This is issue 5079.
+                 * The old and new UML namespaces are in the event, but
+                 * how do we know which nodes to refresh?
+                 * And how to refresh? 
+                 * Not necessarily the namespaces, 
+                 * depending on the perspective. */",DEFECT
+// TODO: why do we need to remove then add the Fig?,IMPLEMENTATION
+// TODO: Something might go wrong during processing. We don't really // want to create the model element until the user releases the mouse // in the place expected.,DEFECT
+"// todo: we should really just collect these from the various SelectExpressions, rather than regenerating here",DESIGN
+// TODO: Generalize extension and remove critic specific stuff,DESIGN
+"/*
+     * Called after the diagram font gets changed. <p>
+     *
+     * TODO: Do we need to do anything here?
+     *
+     * @see java.beans.PropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent)
+     */",IMPLEMENTATION
+// TODO should we call test listeners? That might hang too ... //$NON-NLS-1$ // default is true,DEFECT
+"/* Silly bug workaround #8694. If you look at the above code,
+		 * note that we restore the saved caret position first, then
+		 * scroll to the saved location. However, the caret changing
+		 * can itself result in scrolling to a different location than
+		 * what was saved; and since moveCaretPosition() calls
+		 * updateBracketHighlight(), the bracket highlight's out of
+		 * bounds calculation will rely on a different set of physical
+		 * first/last lines than what we will end up with eventually.
+		 * Instead of confusing the user with status messages that
+		 * appear at random when switching buffers, we simply hide the
+		 * message altogether. */",DESIGN
+"//Don't need this, because we should never ever be selecting no columns in an insert ... select... //and because it causes a bug on DB2",DEFECT
+// TODO : would be really nice to cache the spec on the query-def so as to not have to re-calc the hash; // currently not doable though because of the resultset-ref stuff...,DESIGN
+"// SSS: FIXME: Somewhere here, we need to record information the type of this operand as String",IMPLEMENTATION
+"// XXX: Again, screwy evaling under previous frame's scope",DESIGN
+// TODO implement validation,IMPLEMENTATION
+"/**
+ * The file persister for the UML model.
+ * TODO: This is empty.  What is its purpose? - tfm
+ * @author Bob Tarling
+ */",DESIGN
+// TODO : this is broke for subqueries in statements other than selects...,DEFECT
+// defer argument checking,DESIGN
+"//before cascade! //TODO: should this be Session.instantiate(Persister, ...)?",DESIGN
+// TODO: factor this chunk as in MRI/YARV GETASTER,DESIGN
+// TODO: better error message since we actually support composites if names are explicitly listed.,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+// TODO: Allow .zargo as profile as well?,IMPLEMENTATION
+"// The following only works if SwingUtilities.getRoot(table) returns // and instanceof BaseMDIParentFrame. // If SwingTUilities.getRoot(table) returns and instance of Dialog or // Frame, then other code must be used.",DESIGN
+"/**
+ * This class manages the windows for the application.
+ *
+ * TODO: Correct these notes
+ * <p>When a session closes the window manager will ensure that
+ * all of the windows for that sesion are closed.
+ * <p>Similarily when a window is closed the windows manager will ensure that
+ * references to the window are removed for the session.
+ *
+ * JASON: Prior to this patch there was some code movement from this class to
+ * Sessionmanager. The idea being that Sessionmanager was the controller.
+ * Do we still want to do this? Remember in the future there will probably be
+ * an SDI as well as MDI version of the windows.
+ *
+ * @author <A HREF=""mailto:colbell@users.sourceforge.net"">Colin Bell</A>
+ * @author <A HREF=""mailto:jmheight@users.sourceforge.net"">Jason Height</A>
+ */",DOCUMENTATION
+// FIXME: I got a bunch of NPEs when I didn't check for nulls here...HOW?!,DEFECT
+// TODO ought to be a FileChooser ...,DESIGN
+// TODO: Move magic number 10 to descriptive constant,DESIGN
+"/**
+ * FIXME:
+ * 
+ * @author fdietz: No locking of folders currently implemented!
+ * 
+ * @author frd
+ */",DEFECT
+// TODO - needs more work ...,DESIGN
+// Appears to be gone from UML 2.x,DEFECT
+// TODO // I'm concerned that folders will often return 401 or even 403. // So should we consider something to exist even though access if unauthorized or forbidden? //,DESIGN
+"/* TODO: This needs more work! 
+         * We simply throw the new extension point away? */",IMPLEMENTATION
+"// TODO: Figure out a better way to get the FROM elements in a proper tree structure. // If this is not the destination of a many-to-many, add it as a child of the origin.",DESIGN
+// not needed,IMPLEMENTATION
+// TODO: This whole block can be deleted when issue 6266 is resolved,DEFECT
+// TODO: Document,DOCUMENTATION
+"// Set the overall status for the transaction sample // TODO: improve, e.g. by adding counts to the SampleResult class",IMPLEMENTATION
+// FIXME: This should probably do some translation from Ruby priority levels to Java priority levels (until we have green threads),DESIGN
+"/**
+     * Builds an actor in the same namespace as the given actor. If
+     * the object is not and actor nothing is built.<p>
+     * 
+     * TODO: This shouldn't just silently fail if it is passed a bad
+     * argument.  This contract will change. - tfm 20070607
+     *
+     * @param model The namespace.
+     * @param actor the given actor
+     * @return Actor the newly built actor
+     */",IMPLEMENTATION
+//TODO: include the rowids!!!!,IMPLEMENTATION
+// TODO: All build/create methods need Undo support - tfm,IMPLEMENTATION
+//FB TBD can we come up with a better algorithm for choosing the default label feature?,DESIGN
+// not needed,IMPLEMENTATION
+// note: at least my local MySQL 5.1 install shows this not working...,DEFECT
+// XXX - log an error?  throw an exception?,IMPLEMENTATION
+// TODO is this possible?,DESIGN
+// TODO: Use Model.getModelManagementHelper().getPathList(modelElement); // TODO: This will fail with nested Models,DEFECT
+"/* TODO: correctly implement next function 
+         * in the model subsystem for 
+         * issue 1942: */",DEFECT
+//TODO (@author fdietz): Add proper description here,DOCUMENTATION
+// TODO: call ruby method,IMPLEMENTATION
+// TODO: Check if this is ok (this is literally adapted from NSUML),IMPLEMENTATION
+// TODO: Ruby locks the string here,DEFECT
+// The eAnnotations and eGenericType are possible containment references.  // We'll move them instead of copying //,DESIGN
+// not needed,IMPLEMENTATION
+// TODO: work here !,IMPLEMENTATION
+"// Fixme: Only F_SETFL and F_GETFL is current supported // FIXME: Only NONBLOCK flag is supported // FIXME: F_SETFL and F_SETFD are treated as the same thing here.  For the case of dup(fd) we //   should actually have F_SETFL only affect one (it is unclear how well we do, but this TODO //   is here to at least document that we might need to do more work here.  Mostly SETFL is //   for mode changes which should persist across fork() boundaries.  Since JVM has no fork //   this is not a problem for us.",DOCUMENTATION
+// ?R  | boolean | True if file is readable by the real uid/gid of the caller // FIXME: Need to implement an readable_real_p in FileTest,TEST
+// TODO: must override in RubyModule to pick up constants,IMPLEMENTATION
+//{{{ Set the buffer's path // Caveat: won't work if save() called with a relative path. // But I don't think anyone calls it like that anyway.,DEFECT
+// Empty implementation.,IMPLEMENTATION
+"// TODO: No one should be sending the deprecated event // from outside ArgoUML, but keep responding to it for now // just in case",DESIGN
+// TODO: Why is this disabled always?,IMPLEMENTATION
+// This doesn't work in UML2: both owner and property needed!,DEFECT
+"// Predecessors used to be not implemented, because it // caused some problems that I've not found an easy way to handle yet, // d00mst. The specific problem is that the notation currently is // ambiguous on second message after a thread split. // Why not implement it anyway? d00mst // TODO: Document this ambiguity and the choice made.",DOCUMENTATION
+"/**
+     * Rank the nodes depending on their level (position in hierarchy) and set
+     * their weight to achieve a proper node-sequence for the layout. Rows
+     * exceeding the maximum row width are split, if standalone nodes are
+     * available.
+     * <p>
+     * Weight the other nodes to determine their columns.
+     * <p>
+     * TODO: Weighting doesn't appear to be working as intended because multiple
+     * groups of children/specializations get intermixed in name order rather
+     * than being grouped by their parent/generalization. - tfm - 20070314
+     */",DEFECT
+// CREATE ENTITIES // FIXME:  these methods should be defined,DESIGN
+"//TODO: implement, won't do this now",IMPLEMENTATION
+"// TODO: uncomment the following to get the failure. //        assertLoadModel(ISSUE5946_BASE_DIR + ""zipped-uml14"" //            + ""/andromda-profile-datatype/3.3/andromda-profile-datatype-3.3.xml.zip"", //            null, ""testReadCompressedAndroMDAProfileFileIssue5946"");",DEFECT
+// we might need to perform a DST correction,DESIGN
+"/**
+     * The connect method specifying a connection
+     * type by class is unavailable in the ArgoUML implementation.
+     * TODO: This should be unsupported. Use the 3 Object version
+     *
+     * {@inheritDoc}
+     */",DESIGN
+"/**
+     * TODO: This name of the expression language should be
+     * configurable by the user. <p>
+     *
+     * According to the UML standard,
+     * the expression language should be the same
+     * for all elements in one diagram. <p>
+     *
+     * UML is not a sensible default - usually this is some pseudo-language.
+     *
+     * @return the name of the expression language
+     */",IMPLEMENTATION
+// this class is not very fast...,DEFECT
+// If we are not visible most likely // we're being deleted. // TODO: This indicates a more fundamental problem that // should be investigated - tfm - 20061230,DEFECT
+//TODO: Test Mac keyboard accelerator changes done here by mlivingstone // shortcut key,TEST
+"// TODO: We currently don't support per-fig settings for most stuff, so // we can just use the defaults that we were given. //        settings = new DiagramSettings(renderSettings);",DEFECT
+"/*
+	Note: this method incorrectly caches the method structure.  It needs to
+	be cleared when the classloader changes.
+*/",DEFECT
+"// TODO: check safe, taint on incoming string",IMPLEMENTATION
+// TODO: Is it removed from UML2 ?,IMPLEMENTATION
+// We tested this above - do we need to test again?,TEST
+// todo : we can remove this once the deprecated ctor can be made private...,DESIGN
+// TODO: This should only be checking for the top level package // (if anything at all),IMPLEMENTATION
+"/**
+     * A modelelement has been changed.
+     * Now we give it priority to be checked by the critics ASAP.
+     *
+     * TODO: why is is synchronised?
+     * TODO: what about when objects are first created?
+     *
+     * @param dm the design material
+     * @param reason the reason
+     */",DESIGN
+// TODO: what shall we do with the exception?,IMPLEMENTATION
+"/**
+     * The constructor.
+     * TODO: Why does this method not handle all settings
+     * (KEY_DEFAULT_SHADOW_WIDTH is missing)?
+     */",DESIGN
+"/*
+			Wrap nulls.
+			This is a bit of a cludge to address a deficiency in the class
+			generator whereby it does not wrap nulls on method delegate.  See
+			Class Generator.java.  If we fix that then we can remove this.
+			(just have to generate the code there.)
+		*/",DESIGN
+// this part sucks,DESIGN
+// TODO: implement,IMPLEMENTATION
+// TODO: No test coverage for this or createPropPanel? - tfm,TEST
+// not needed,IMPLEMENTATION
+//TODO: currently we don't know a SessionFactory reference when building the Tuplizer //      THIS IS A BUG (embedded-xml=false on component) // TODO : fix this after HHH-1907 is complete,DEFECT
+//TODO: copy/paste from recreate(),DESIGN
+"// TODO: Lots more types - Duration, Instance, Interval",DESIGN
+"/* MVW: for this case, I have to move the
+             * call to setSelectedItem() outside the ""buildingModel"", otherwise
+             * the combo does not update with the new selection.
+             * The same does probably apply to the cases above! */",DESIGN
+// TODO: don't require pop,DEFECT
+"// hack to reduce the need to load every class in non-GUI mode, which only needs functions // TODO perhaps use BCEL to scan class files instead? // class name should contain this string // class name should not contain this string",DESIGN
+// FIXME:  it probably makes sense to allocate an array of 256 Colors // and lazily populate this array...,DESIGN
+// TODO: Not yet working for UML2,DEFECT
+// TODO: Is this adequate for finding profiles in Java WebStart jars? //       - tfm,DESIGN
+"/**
+     * For modules, it would be useful to be able to remove their factories.
+     * <p>
+     * 
+     * TODO: The effect of this method is not yet tested!
+     * 
+     * @param factory
+     *            the factory to remove
+     */",TEST
+// TODO: i18n,IMPLEMENTATION
+"// FIXME: This needs to happen for lambdas //            args.checkArgCount(runtime, parameters.length);",IMPLEMENTATION
+"/**
+ * All events going to the Explorer must pass through here first!<p>
+ *
+ * Most will come from the uml model via the EventAdapter interface.<p>
+ *
+ * TODO: In some cases (test cases) this object is created without setting
+ * the treeModel. I (Linus) will add tests for this now. It would be better
+ * if this is created only when the Explorer is created. <p>
+ *
+ * TODO: The ExplorerTreeNode also listens to some events
+ * (from Diagrams), so it does not follow the rule above.
+ *
+ * @since 0.15.2, Created on 16 September 2003, 23:13
+ * @author  alexb
+ */",TEST
+// TODO implement,IMPLEMENTATION
+// must be overridden to make sense // (I didn't want to make it abstract because it might not be required),DESIGN
+"/**
+ * FIXME Why is searchTF not getting focus correctly after having been setVisible(false) once
+ */",DESIGN
+// FIXME: -x flag not supported //                    case 'x' : //                        break;,DEFECT
+// TODO: Ruby locks the string here,DEFECT
+// XXX clean up this conditional,DESIGN
+"/**
+     * Make use of the default visibility, which is public...
+     * TODO: centralise this knowledge.
+     *
+     * @see org.argouml.uml.diagram.ui.AbstractActionRadioMenuItem#valueOfTarget(java.lang.Object)
+     */",DOCUMENTATION
+// TODO: Not implemented by eUML,DEFECT
+// FIXME this is actually not very cpu cycles friendly as we are converting from // dos to java while the underlying Sun implementation will convert // from java to dos time for internal storage...,DEFECT
+// TODO: i18n,IMPLEMENTATION
+"/**
+     * Return the source of a relation or Link. The source of a relation is
+     * defined as the ModelElement that propagates this relation. If
+     * there are more then 1 sources, only the first is returned. If
+     * there is no source, null is returned. Examples of sources
+     * include classifiers that are types to associationends, usecases
+     * that are bases to extend and include relations and so on. A
+     * source is always the start from the arrow in the fig, the
+     * destination the end.<p>
+     * 
+     * TODO: move this method to a generic ModelHelper
+     *
+     * @param relationship is the relation
+     * @return Object
+     */",DESIGN
+// the plot field is NOT tested,TEST
+// synchronized method per JRUBY-1173 (unsafe Double-Checked Locking) // FIXME: synchronization is still wrong in CP code,DEFECT
+"// SSS FIXME: For constant arrays, we should never get here!",DEFECT
+// TODO: not implemented,IMPLEMENTATION
+// TODO: Test if the generated string is correct.,TEST
+//TODO: add owner argument!!,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+//TODO find a decent name before documenting,DOCUMENTATION
+// TODO: need more tests,TEST
+"/**
+     * This keeps track of the editing domain that is used to track all changes
+     * to the model.
+     * <p>
+     * TODO: This probably needs to be a set of EditingDomain so that we can
+     * manage an EditingDomain per project.
+     */",DESIGN
+// TODO:  What should we do here?,IMPLEMENTATION
+// hack to get fixed length 'length' field,DESIGN
+// TODO: This could be made more efficient by working with iterators // directly and creating a composite iterator made up of all the  // various sub iterators.,IMPLEMENTATION
+/*TODO create javadocs for class */,DOCUMENTATION
+"//DMS What if Eclipse is running, but an invalid facade has been specified?  We still should format code, use encoding,...",DESIGN
+//TODO: if lock.getTimestamp().equals(ts),IMPLEMENTATION
+//TODO: native ids,IMPLEMENTATION
+"/* TODO: We should use implicit nil for body, but problem (punt til later)*/",DEFECT
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * Constructor
+	 * 
+	 * @param Name
+	 *            String
+	 * @param Data
+	 *            String
+	 *  
+	 */",DOCUMENTATION
+// FIXME: This isn't quite right; it shouldn't evaluate the value if it's going to throw the error,DEFECT
+// TODO: Reuse the offender List.,IMPLEMENTATION
+// TODO: key can't be null,DEFECT
+"/**
+     * Test the constructor used for loading a profile from a Jar file.
+     * TODO: Test FigNode!
+     *
+     * @throws Exception if something goes wrong
+     */",TEST
+"// now we handle some special cases - yes, UGLY code alert!",DESIGN
+// TODO: This work should be deferred until actually  // needed for display,IMPLEMENTATION
+// TODO: This needs to be modified for UML 2.x,IMPLEMENTATION
+//TODO possibly relax that,DESIGN
+// FIXME: Errno descriptions from Constantine // on Windows are not useful at the moment.,DEFECT
+"// This runs the operation, and shows progress. // (It appears to be a bad thing to fork this onto another thread.) //",DESIGN
+// TODO: don't require pop,DEFECT
+"// TODO write test for enumerations, although they are not yet supported",TEST
+// TODO: note lack of command.com support for Win 9x...,IMPLEMENTATION
+"// Don't use tinyint for now, even though Mckoi ""supports"" it. It's // notion of tinyint is 7-bit (not 8-bit) so it is not compatible with // other DBs and leads to overflow (resulting in negative values which // are a corruption of the actual value inserted/updated). This is not // a great work-around. I filed a bug report on the mailing list; // hopefully it will get fixed soon.",DESIGN
+// todo : add support for READ_WRITE ( + NONSTRICT_READ_WRITE ??? ),IMPLEMENTATION
+"/* On Windows, paths of the form X: list the last *working
+		 * directory* on that drive. To list the root of the drive,
+		 * you must use X:\.
+		 *
+		 * However, the VFS browser and friends strip off trailing
+		 * path separators, for various reasons. So to work around
+		 * that, we add a '\' to drive letter paths on Windows.
+		 */",DESIGN
+"//TODO: always true for now, but not if we later decide to support elements() in the from clause",IMPLEMENTATION
+//TODO: proxies!,IMPLEMENTATION
+// TODO: Why can't we use ActionAddExistingNodes here? Bob.,DESIGN
+"// TODO: the '\n' literal here should be a test against REToken.newline, // which unfortunately may be more than a single character.",TEST
+"// This would be sensible, but does not work: // public int hashCode() // { // return propMap.hashCode(); // }",DEFECT
+"// TODO: Can we get this info from UML2 plugin? // Perhaps collect all References in the metamodel, filter for those // which represent containments and find the types on either end - tfm",DESIGN
+// modules are included with a shim class; we must find that shim to handle super() appropriately,DESIGN
+"// The following debug line is now the single most memory consuming // line in the whole of ArgoUML. It allocates approximately 18% of // all memory allocated. // Suggestions for solutions: // Check if there is a LOG.log(Level.FINE,String, String) method that can // be used instead. // Use two calls. // For now I (Linus) just comment it out. // LOG.log(Level.FINE, ""applying critic: "" + _headline);",IMPLEMENTATION
+// TODO: This won't work when the column has values with quotes in them. // Use PreparedStatements instead.,DEFECT
+/* Testing: Does not fire. Conflict with CrNameConflict. */,TEST
+// TODO: allow the user to specify ignore case or preserve case.,IMPLEMENTATION
+// TODO: Ruby unlocks the string here,IMPLEMENTATION
+"/* TODO: correctly implement next function
+                 * in the model subsystem for
+                 * issue 1942: */",IMPLEMENTATION
+// not implemented yet,IMPLEMENTATION
+//note that this implementation is kinda broken //for components with many-to-one associations,DEFECT
+// XXX - shouldn't this always return false in isolated mode?,DESIGN
+// TODO: Do we want all enabled tabs to listen or // only the one that is selected/visible? - tfm,IMPLEMENTATION
+// this method is a nightmare,DESIGN
+// TODO: Only setAccessible to account for pattern found by // accessing constants included from a non-public interface. // (aka java.util.zip.ZipConstants being implemented by many // classes),DESIGN
+// TODO: proper sign,DEFECT
+// I wonder if the lack of this broke anything in the // past?,DEFECT
+"// if we don't have opt args, start after args (they will be assigned later) // this is for crap like def foo(a = (b = true; 1)) which numbers b before a // FIXME: only starting after required args, since opt args may access others // and rest args conflicts with compileRoot using ""0"" to indicate [] signature.",DESIGN
+"// dump the trace and continue // this is currently only here for Android, which seems to have // bugs in its enumeration logic // http://code.google.com/p/android/issues/detail?id=2812",DEFECT
+// TODO: don't require pop,DEFECT
+// FIXME missing full tests for leap year,TEST
+// Hack... need a more direct way of obtaining a view? // JEditTextArea.getView() method?,DESIGN
+"/**
+	 * TODO: Check if Mimer SQL cannot handle the way DB2 does
+	 */",IMPLEMENTATION
+"// TODO: The following rather than the above is probably the correct // way to search // stereo = findStereotype(obj, null, name);",DEFECT
+// TODO: don't require pop,DEFECT
+"/* TODO: This needs work...
+         * We also need to listen to addition/removal
+         * of states to/from a ClassifierInState.
+         */",DESIGN
+// TODO: what type?,DESIGN
+"// TODO: It is a performance drain to load all classes at startup time. // They should be lazy loaded when needed.  Instead of scanning all // classes for ones which implement our loadable module interface, we // should use a manifest entry or a special name/name pattern that we // look for to find the single main module class to load here.  - tfm",IMPLEMENTATION
+"/*
+     * TODO add tests to check for: - name clash - long option abbreviations
+     * (match shortest unique abbreviation)
+     */",TEST
+"/**
+ * TestCases for {@link XSLTProcess} task.
+ * XXX merge with {@link XsltTest}?
+ * @version 2003-08-05
+ */",TEST
+"// TODO: Do we want to <<friend>> stereotypes too? //                        || Model.getExtensionMechanismsHelper().hasStereotype( //                        permission, ModelManagementHelper.FRIEND_STEREOTYPE)",DESIGN
+"/**
+ * TODO: This needs more work.
+ * Test e.g. creation when an operation is selected.
+ *
+ * @author jaap.branderhorst@xs4all.nl
+ * @since Jan 9, 2003
+ */",TEST
+"/**
+     * Make use of the default visibility, which is public...
+     * TODO: centralise this knowledge.
+     *
+     * @see org.argouml.uml.diagram.ui.AbstractActionRadioMenuItem#valueOfTarget(java.lang.Object)
+     */",DOCUMENTATION
+"// ... but if HyperSearch results window is floating, // the workaround causes problems!",DEFECT
+// line comments at the end of annotations are not a part of the range of annotation // TODO is not including line comments at the end of annotations a bug?,DEFECT
+// TODO: CLONE_SETUP here,IMPLEMENTATION
+// 2 aug 2003: OS/2 Java has a broken getCanonicalPath(),DEFECT
+"// ModelElement is abstract, so no create tests // TODO: Add any other relevant tests        ",TEST
+"/* TODO: correctly implement next function
+                 * in the model subsystem for
+                 * issue 1942: */",IMPLEMENTATION
+"/**
+ * This interface contains methods to retrieve objects that represent the
+ * different UML types. These objects are use as tokens used to create
+ * model elements in some methods.
+ *
+ * TODO: There are parts of ArgoUML which assume that the objects returned
+ * here are Classes.  We should formalize that by changing the return types to
+ * match. tfm - 20070620 Bob says - there should be no such assumption in
+ * ArgoUML. Can we document where these are?
+ * 
+ * @see org.argouml.model.UmlFactory#buildConnection(
+ *         Object, Object, Object, Object, Object, Object, Object)
+ * @see org.argouml.model.UmlFactory#buildNode(Object)
+ */",DOCUMENTATION
+//TODO clazz is probably always the same as testclass,DESIGN
+// not needed,IMPLEMENTATION
+// TODO: i18n,IMPLEMENTATION
+"/* These next lines for the case that the current namespace
+         * is not a valid one... Which of course should not happen,
+         * but it does - see the project attached to issue 3772.
+         */",DEFECT
+"// If it exists, remove it and add it at the end (avoid memory leak)",DEFECT
+// TODO: are we intentionally eating all events? - tfm 20060203 // document!,DOCUMENTATION
+"//TODO: when this is the entry point, we should use an INNER_JOIN for fetching the many-to-many elements!",DEFECT
+// TODO investigate typo in spec!!,DOCUMENTATION
+// TODO: create the child index ST,IMPLEMENTATION
+// TODO Expression and InstanceValue (how) // If anyone have an example.,IMPLEMENTATION
+"// TODO: figure out how to get then name of the table that the trigger  //       is on.  //""and tables.name = ? "" +",IMPLEMENTATION
+// here we tweak the notify flag on the plot so that only // one notification happens even though we update multiple // axes...,DESIGN
+// TODO: Do we want to use the Project here instead of just its name?,IMPLEMENTATION
+// JDK 1.4 workaround,DESIGN
+// not needed,IMPLEMENTATION
+// TODO: use UndoableEditEvent to make this really work,DESIGN
+// Should we use java.naming.security.[principal|credentials] to create the QueueConnection?,DESIGN
+"/**
+ * Test creation of Collaboration diagrams.
+ * TODO: Test creating on an operation.
+ *
+ * @author jaap.branderhorst@xs4all.nl
+ * @since Jan 9, 2003
+ */",TEST
+"// TODO: Deal with the ""optional"" attribute in the <join> mapping; // this code assumes that optional defaults to ""true"" because it // doesn't actually seem to work in the fetch=""join"" code // // Note that actual proper handling of optional-ality here is actually // more involved than this patch assumes.  Remember that we might have // multiple <join/> mappings associated with a single entity.  Really // a couple of things need to happen to properly handle optional here: //  1) First and foremost, when handling multiple <join/>s, we really //      should be using the entity root table as the driving table; //      another option here would be to choose some non-optional joined //      table to use as the driving table.  In all likelihood, just using //      the root table is much simplier //  2) Need to add the FK columns corresponding to each joined table //      to the generated select list; these would then be used when //      iterating the result set to determine whether all non-optional //      data is present // My initial thoughts on the best way to deal with this would be // to introduce a new SequentialSelect abstraction that actually gets // generated in the persisters (ok, SingleTable...) and utilized here. // It would encapsulated all this required optional-ality checking...",DEFECT
+// FIXME: I think we need these pushed somewhere?,DESIGN
+// Workaround for JRUBY-4149,DESIGN
+"// doesn't work: Depending on the compression engine used, // compressed bytes may differ. False errors would be // reported. // assertTrue(""File content mismatch"", // FILE_UTILS.contentEquals(project.resolveFile(""expected/asf-logo-huge.tar.bz2""), // project.resolveFile(""asf-logo-huge.tar.bz2"")));",TEST
+/* The next line does not work: */,DEFECT
+"// TODO: Ruby truncates string to specific size here, but our bytelist should handle this already?",IMPLEMENTATION
+"/**
+ * Test delivery of Model events.
+ *
+ * TODO: We have not documented exactly what events arrive and when.
+ *
+ * @author Linus Tolke
+ */",DOCUMENTATION
+// Fix for this bug: // -- Put a mode into the user dir with the same name as one //    on the system dir. // -- Reload edit modes. // -- Old mode from system dir still used for highlighting //    until jEdit restart.,DEFECT
+/* Spacing workaround */,DESIGN
+"// Simplify the variables too -- to keep these variables in sync with what is actually used in the when clauses // This is not required for correctness reasons, but only for performance reasons.",DESIGN
+// TODO : temporary initial step towards HHH-1907,IMPLEMENTATION
+//FB Won't compile with VAJ or NO_JIKES  //FB Object adapter = adapterFactory.adapt(mapping);,DEFECT
+// defer argument checking...,DESIGN
+"//TODO handle supportsNotNullUnique=false, but such a case does not exist in the wild so far",IMPLEMENTATION
+"// vulture thread will periodically expunge dead // entries.  entries are also expunged during 'put' // operations; this is designed to cover the case where // many objects are created initially, followed by limited // put activity. // // FIXME: DISABLED (below) pending resolution of finalization issue //",DEFECT
+// TODO: not in UML 2,DEFECT
+// Do we need to qualify index names with the schema name?,DESIGN
+// TODO: not implemented,IMPLEMENTATION
+// TODO: Presumably this is only relevant if // obj is actually a Model or Profile. // An added test of isAModel(obj) or isAProfile(obj) would clarify // what is going on here.,TEST
+// TODO Improve extensibility of this!,DESIGN
+"/*TODO: Make the tree refresh and expand
+                                     * really work in all cases!
+                                     */",DEFECT
+// TODO: 3 times calculate the same value below,IMPLEMENTATION
+"// It is chunked transfer encoding, which we do not really support yet. // So we just read without blocking, because we do not know when to // stop reading, so we cannot block // TODO propery implement support for chunked transfer, i.e. to // know when we have read the whole request, and therefore allow // the reading to block",IMPLEMENTATION
+// TODO: This requires that the tests be run with assertions // enabled which isn't guaranteed in all environments.,TEST
+// TODO: don't require pop,DEFECT
+// todo : potentially look at optimizing these two arrays,DESIGN
+"// If it's a jar, clean it up and make it look like a file url",IMPLEMENTATION
+// defer argument checking,DESIGN
+// TODO: Tooltips,IMPLEMENTATION
+// TODO: Make into an assert once I get things like blockbodynodes to be implicit nil,TEST
+"// TODO: should also make sure that each of the columns is made ""NOT NULL""",IMPLEMENTATION
+// TODO: Should be anything allowed by current diagram,IMPLEMENTATION
+"//TODO: would be nice to use false, but issues with MS SQL",DEFECT
+// not needed,IMPLEMENTATION
+"/**
+     * Generate the ""intno"" of the given Message. <p>
+     *
+     * If the predecessor of the given message has only one successor, then
+     * we return the string representation of the given integer. <p>
+     * If the predecessor of the given message has more than one successor, then
+     * this is a case of parallel execution of messages, e.g.
+     * Message 3.1a and Message 3.1b are concurrent within activation 3.1.
+     * Hence In this case we use a syntax like: 1a, 1b, 1c.
+     *
+     * This means that the first successor
+     * in the ordered list of successors that has more than one entry
+     * will get the postfix a, the second b, etc.
+     *
+     * TODO: Document exceptional behaviour.
+     *
+     * @param umlMessage the UML message object to generate
+     * the sequence number for
+     * @param umlPredecessor the immediate predecessor message (UML object)
+     * that has the given message as successor
+     * @param position the integer position of the given message
+     * within its sequence
+     * @return the generated sequence expression string,
+     * or null if the given Message was null
+     */",DOCUMENTATION
+// TODO check if we have to manually set the folder/uid in  // message controller to make this work,DEFECT
+"// TODO do tests for allInstances (8.5.11), // even though it is not yet supported",DEFECT
+// TODO: improve this test // $NON-NLS-1$ $NON-NLS-2$ // Missing variable name,TEST
+// TODO: These 2 should be handled with an Iterator.,DESIGN
+// TODO // Plugin supports only the main session window,IMPLEMENTATION
+// not needed,IMPLEMENTATION
+"// TODO: I18N This needs to be localized, but we don't // have any localization capabilities in the model subsystem //                    Object[] args = { typeName, elemName, alias }; //                  misc.name.element-import.alias = Imported {0}: {1} alias {2} //                    return Translator.localize( //                            ""misc.name.element-import.alias"", args);",DESIGN
+// TODO: make this do specific-arity calling,DESIGN
+// (should we cache info in not a class case too?),DESIGN
+// Should this also fail the sample? // Can happen for incorrect XPath expression,DEFECT
+// todo : add support for READ_WRITE ( + NONSTRICT_READ_WRITE ??? ),IMPLEMENTATION
+// not very nice but will do the job,DESIGN
+// TODO: Make this more efficient for large I/Os,IMPLEMENTATION
+"// This is not good... // need a way to update eval without re-installing... // so that we can re-eval params, etc. when classloader changes // look into this",DEFECT
+// TODO: full-precision remainder is 1000x slower than MRI!,DEFECT
+// TODO: use a generator here,DESIGN
+"/**
+     * Builds a default implementation for an interface. The interface
+     * is not owned by any model element by default. Users should not
+     * forget to add ownership.
+     *
+     * @return Interface
+     * TODO: This needs an extra parameter to specify the model/extent where
+     * the new element should be created.
+     */",DESIGN
+// get the right object from the list ... would it be easier to just call getEntity() ??,DESIGN
+// FIXME: Throw the right ArgumentError's if the class is missing // or if it's a module.,DEFECT
+// defer argument checking...,DESIGN
+// quick fix for Ant.java use of property before // initializing the project,DESIGN
+// This info is merely a placeholder in the tree that we can use to get index name and // parent name more easily. We probably should create a IndexColumnInfo that has this // extra info in it.,DESIGN
+// TODO: consider a conditional feature in the xml panel def for this:,DESIGN
+"//TODO: assertion only, could be optimized away",IMPLEMENTATION
+"/**
+     * Actually instanciate the NetNode and FigNode objects and
+     * set the global next mode to ModePlace
+     * TODO: should call super, reduce code volume!
+     *
+     * @see org.tigris.gef.graph.GraphFactory#makeNode()
+     */",DESIGN
+"// FIXME: create AttrReaderMethod, AttrWriterMethod, for faster attr access",IMPLEMENTATION
+// ?W  | boolean | True if file1 exists and is writable by the real uid/gid // FIXME: Need to implement an writable_real_p in FileTest,TEST
+// TODO handle filenames,IMPLEMENTATION
+"/**
+ * A critic to detect when a classifier has to many operations). <p>
+ *
+ * TODO: exclude getter and setter operations from count
+ */",DEFECT
+// TODO some more invalid sequence tests needed,TEST
+"// let's test which situation we have. 3 Possibilities: // 1. The nodes are already on the diagram, we can use //    canAddEdge for this. // 2. One of the nodes is already on the diagram. The other //    has to be added. // 3. Both of the nodes are not yet on the diagram. // For the time being we will only implement situation 1. // TODO: implement situation 2 and 3.",IMPLEMENTATION
+"// The property is an id's thing -- either a property // or a path.  We need to make sure // that the object was created with the given id. // We don't have an adequate way of testing the actual // *value* of the Path object, though...",TEST
+//use of a stringbuffer to workaround a JDK bug,DESIGN
+// SSS FIXME: Traverse up the scope hierarchy to find the constant as long as the parent is a static scope,IMPLEMENTATION
+// Does not appear to be used,DESIGN
+// defer argument checking...,DESIGN
+// This works only on JDK 1.5 // With JDK 1.4.x fonts will be bold for all SwingSet themes. // See also SwingSet2 demos in JDK 1.4 and JDK 1.5,DEFECT
+// TODO: Implement this better,IMPLEMENTATION
+// TODO: cannot use generateSuffixes() - it handles the initial suffix differently.,DEFECT
+// FIXME: Need to detect magic_comment in 1.9 here for encoding,IMPLEMENTATION
+//set the property values // Note: this may have already been done by another instance of // this DataType created to handle a different column.,DESIGN
+// TODO: Make this final asap.,IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+// starts with an alias (old style) // semi-bad thing about this: can't re-alias another alias.....,DEFECT
+// TODO: I18N required,IMPLEMENTATION
+//TODO: shift block down to bottom,DESIGN
+"// This is a work-around for what looks like a bug to me - it is a syntax error to qualify with the  // schema the new table name, but not the old as in: // // ALTER TABLE ""public"".""tablerenametest"" RENAME TO ""public"".""tablewasrenamed"" // // The second ""public"". is apparently not (currently) a valid thing to do.",DESIGN
+"/**
+     * Create an empty but initialized instance of a UML Method.
+     *
+     * @return an initialized UML Method instance.
+     * TODO: This needs an extra parameter to specify the model/extent where
+     * the new element should be created.
+     */",DESIGN
+// Need to calculate this... just fudging here for now.,IMPLEMENTATION
+// FIXME: It may be possible to killpg on systems which support it.  POSIX library // needs to tell whether a particular method works or not,DEFECT
+"// this is only needed (afaict) for processing results from the query cache; // however, this cannot possibly work in the case of discovered types...",DEFECT
+"/*
+         * The UML 2.x package structure is *entirely* different, so we have to
+         * remap a bunch of stuff. Names without embedded colons (:) indicate
+         * that the entire package is remapped. e.g. Kernel->Core As a matter of
+         * fact the only package which did NOT get renamed or moved is UseCases.
+         * 
+         * TODO: This section is very incomplete. - tfm
+         */",DESIGN
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * @return XmlElement
+	 * @param String
+	 *            Path
+	 *  
+	 */",DOCUMENTATION
+// TODO: handle TypeDefs,IMPLEMENTATION
+"// TODO: A better implementation would be to batch events into // logical groups and update the tree one time for the entire // group, synchronizing access to the model repository so that // it stays consistent during the query.  This would likely // require doing the updates in a different thread than the // event delivery thread to prevent deadlocks, so for right now // we protect ourselves with try/catch blocks.",IMPLEMENTATION
+// TODO: Do we have any potential consumers of the unversioned name outside // of the notation subsystem?,IMPLEMENTATION
+/* two plugins provide same class! */,DEFECT
+// result = this.workingCalendar.getTimeInMillis(); // preceding code won't work with JDK 1.3,DEFECT
+// Bug in above method,DEFECT
+// sorry - otherwise we will get a ClassCastException because the MockCache // is loaded by two different classloader ...,DESIGN
+// SSS FIXME: To be done,IMPLEMENTATION
+// TODO: Why aren't we throwing an exception here? // Returning null results in NPE and no explanation why.,IMPLEMENTATION
+"// The UML 2.1.1 metamodel is a MOF 2.0 CMOF model, so // we want nodes with // tag=""ownedMember"", attribute xmi:type=""cmof:Class"" // TODO: This code is untested - tfm",TEST
+"// TODO: In MRI 1.9, an explicit check for negative length is // added here. IndexError is raised when length is negative. // See [ruby-core:12953] for more details. // // New note: This is actually under re-evaluation, // see [ruby-core:17483].",DEFECT
+"// ??? For now, use the same renderer as everyone else. // ?? // ?? IN FUTURE: change this to use a new instance of renderer // ?? for this data type.",DESIGN
+// TODO: needs I18N,IMPLEMENTATION
+// here we tweak the notify flag on the plot so that only // one notification happens even though we update multiple // axes...,DESIGN
+// TODO display warning dialog as this can take some time,DEFECT
+"/**
+     * TODO: Rewrite this test using reflection against Uml class.
+     * 
+     * This code has been commented out since September 2003
+     */",TEST
+"// TODO: Add ""unnamed"" or ""new"" or something? (Localized, of course)",IMPLEMENTATION
+"/**
+ * SQLFilterAction.java
+ *
+ * Created on March 22, 2003, 10:55 AM
+ *
+ * Adapted from SessionPropertiesAction.java by Colin Bell.
+ *
+ * TODO: CHange name to ContentsTabFilterAction
+ */",DESIGN
+// TODO // Plugin supports only the main session window,IMPLEMENTATION
+"// todo : currently expects that the individual with expressions apply to the same sql table join. //      This may not be the case for joined-subclass where the property values //      might be coming from different tables in the joined hierarchy.  At some //      point we should expand this to support that capability.  However, that has //      some difficulties: //          1) the biggest is how to handle ORs when the individual comparisons are //              linked to different sql joins. //          2) here we would need to track each comparison individually, along with //              the join alias to which it applies and then pass that information //              back to the FromElement so it can pass it along to the JoinSequence",DESIGN
+// TODO: Why do we need this when we can just change the font and // achieve the same effect?,IMPLEMENTATION
+// TODO: check if it's OK to just get the first zip entry // since the zip file should contain only one xmi file - thn,IMPLEMENTATION
+// TODO: Test if the generated string is correct.,TEST
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * @param out
+	 *            OutputStream to print the data to
+	 *  
+	 */",DOCUMENTATION
+// TODO : currently we really do not handle ValueInclusion.PARTIAL... // ValueInclusion.PARTIAL would indicate parts of a component need to // be included in the select; currently we then just render the entire // component into the select clause in that case.,DEFECT
+// TODO: This should listen for new target events  // fired by WizStep.updateTabToDo so that we // can decouple it from the ProjectBrowser.,DESIGN
+"// TODO: The below is not strictly correct, but should // cover the case we deal with.  Using a real XML parser // would be better. // Look for XML document has just a single root element",DEFECT
+// TODO: Why are these different colors? - tfm,IMPLEMENTATION
+// TODO check this,IMPLEMENTATION
+// TODO: Needs undo support,IMPLEMENTATION
+"/**
+     * write TODO: Check if sections are not used within the file and
+     * put them as comments at the end of the file.
+     * Hint: use a second Map to compare with the used keys.
+     *
+    * @param filename the file name
+     * @param indent the current indentation
+     * @param outputLostSections true if lost sections are to be written
+     */",IMPLEMENTATION
+// TODO: Reconfigure exception handling to distinguish between errors // that are possible due to bad input data and those that represent // unexpected processing errors.,DESIGN
+// TODO: decompose getJavaPackageModule so we don't parse fullName,DESIGN
+// TODO is it possible to use more than one variable?,IMPLEMENTATION
+// TODO: add trace call?,IMPLEMENTATION
+// TODO: Get rid of magic numbers!  Figure out which represent line // widths vs padding vs offsets,DESIGN
+// TODO: not in UML 2,DEFECT
+// not needed,IMPLEMENTATION
+// TODO // Plugin supports only the main session window,IMPLEMENTATION
+"/**
+     * TODO: Not implemented yet. If the given ToDoItem can
+     * be fixed automatically, and the user wants that to happen, then do
+     * it. Obviously, this depends on the specific Critic and
+     * problem. By default this method does nothing.
+     *
+     * @param item the todo item
+     * @param arg the design material (?)
+     */",IMPLEMENTATION
+// FIXME: This is a system error based on errno,DEFECT
+"// TODO: This exception will be thrown during autoscrolling // when the edge of the canvas is reached causing either // the width or height to be ""adjusted"" to a negative value",DEFECT
+"// this is such a bad way of doing it, but oh well...",DESIGN
+// make it stretch vertically // TODO: The curBody must notify modification,DEFECT
+"/*
+		Note: this implementation is temporary. We currently keep a flat
+		namespace of the base name of classes.  i.e. BeanShell cannot be in the
+		process of defining two classes in different packages with the same
+		base name.  To remove this limitation requires that we work through
+		namespace imports in an analogous (or using the same path) as regular
+		class import resolution.  This workaround should handle most cases 
+		so we'll try it for now.
+	*/",DESIGN
+// TODO: consider inherited attributes?,IMPLEMENTATION
+// TODO: should have an image of a wizard or some logo,IMPLEMENTATION
+// TODO: we can probably release our references to the constantFields // array and static/instance callback hashes at this point. ,IMPLEMENTATION
+// TODO: Considering all delete events to be valid like below // is going to cause lots of unecessary work and some problems,DEFECT
+"/**
+     * The UML 1.4 model elements to test.
+     * 
+     * TODO: This needs to be updated with a version for UML 2.x.
+     */",IMPLEMENTATION
+"/**
+ * Action to trigger code generation for one or more classes.
+ * <p>
+ * In fact, only all named classes and interfaces
+ * on the active diagram are generated.
+ * Or, if this delivers an empty collection, all selected classes, interfaces
+ * and the contents of selected packages are generated
+ * (independent if they are named or not). <p>
+ * TODO: Implement a more logical behaviour.
+ */",DESIGN
+// TODO: We have some quirk that the a baseClass addition or // removal from a steroetype comes back as an AttributeChangeEvent // rather than an AssociationChangeEvent. This needs further // investigation to see if this can be made consistent.,DESIGN
+// turn of focus stealing (workaround should be removed in the // future!),DESIGN
+"/* work-around for bug which means we must use ""dbo"" for schema */",DESIGN
+"/*
+     * TODO this assumes that the redirected response will always immediately follow the original response.
+     * This may not always be true.
+     * Is there a better way to do this?
+     */",DESIGN
+"// Should we return fragment as text, rather than text of fragment?",DESIGN
+// todo: not serialized yet,DEFECT
+// TODO: Formalize conversion mechanisms between Java and Ruby,IMPLEMENTATION
+// TODO:  move the above to the plot state,DESIGN
+"/**
+     * Add a Comment with the given string
+     *
+     * TODO: Currently a no-op, doc is read only
+     *
+     * @param text the property
+     */",DOCUMENTATION
+// TODO: Make another pass to deal with overlaps?,IMPLEMENTATION
+// TODO: Add Up/Down buttons to control the ordering of items,IMPLEMENTATION
+"// TODO: Setup title correctly. //		setTitle(getTitle() + "": "" + _session.getSessionSheet().getTitle());",DEFECT
+"// TODO do tests for infix operators (8.4.7), // even though it is not yet supported",TEST
+"// TODO: This is an freopen in MRI, this is close, but not quite the same",DEFECT
+// TODO: Can we find a better way to do this than hard coding colour?,DESIGN
+//?? Split these 4 functions off into a subclass of BaseFavouriteAction,DESIGN
+/*TODO add javadocs */,DOCUMENTATION
+"/** Attribute names and values. While the XML spec doesn't require
+     *  preserving the order ( AFAIK ), some ant tests do rely on the
+     *  exact order. The following code is copied from AttributeImpl.
+     *  We could also just use SAX2 Attributes and convert to SAX1 ( DOM
+     *  attribute Nodes can also be stored in SAX2 Attributes )
+     *  XXX under JDK 1.4 you can just use a LinkedHashMap for this purpose -jglick
+     * The only exception to this order is the treatment of
+     * refid. A number of datatypes check if refid is set
+     * when other attributes are set. This check will not
+     * work if the build script has the other attribute before
+     * the ""refid"" attribute, so now (ANT 1.7) the refid
+     * attribute will be processed first.
+     */",TEST
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * @return Enumeration
+	 *  
+	 */",DOCUMENTATION
+// SSS FIXME: Should I be returning the operand constructed here?,IMPLEMENTATION
+"/**
+     * Offset in x & y for depth perspective lines of cube.
+     * TODO: This is the same value as the member 'D'in 
+     * {@link org.tigris.gef.presentation.FigCube}, but there is
+     * nothing enforcing that correspondence.  Things will probably
+     * break if they don't match.
+     */",DEFECT
+// We also show tagged values for UML 1 // TODO: what to do for UML2 here?,IMPLEMENTATION
+/* TODO: What if used elsewhere? */,DESIGN
+// TODO: handle errors in buffered write by retrying until finished or file is closed,IMPLEMENTATION
+"/*
+     * URGENT: TODO - sort out equals and hashCode() - at present equal
+     * instances can/will have different hashcodes - problem is, when a proper
+     * hashcode is used, tests stop working, e.g. listener data disappears when
+     * switching views... This presumably means that instances currently
+     * regarded as equal, aren't really equal.
+     *
+     * @see java.lang.Object#hashCode()
+     */",DEFECT
+"// TODO: // A warning line, that shows code, which contains a variable // error will cause some trouble. The parser should definitely // be much better.",DEFECT
+// TODO: I18N required,IMPLEMENTATION
+"/* workaround for hang if match was
+					 * zero-width. not sure if there is
+					 * a better way to handle this */",DESIGN
+// TODO: implement this,IMPLEMENTATION
+//TODO: make this a bit nicer,DESIGN
+// TODO: Implement,IMPLEMENTATION
+// TODO: This is a temporary crutch to use until all Figs are updated // to use the constructor that accepts a DiagramSettings object,DESIGN
+// TODO: should I be adding quotes if user wants identifiers quoted??,DESIGN
+// TODO: Check this result...,DEFECT
+// TODO: profile dependencies for UML2,IMPLEMENTATION
+"// TODO - fix so that this is only called once per test, instead of at every clone // Perhaps save previous filename, and only load if it has changed?",DEFECT
+"/**
+     * Tests CopyHelper without using stereotypes.
+     * <p>
+     * The test is using the tree of objects:
+     * 
+     * <pre>
+     *              model
+     *              /   \
+     *            p1     p2
+     *           /  \
+     *      class_  nestedPackage
+     *                \
+     *                interface_
+     *                  \
+     *                  attribute
+     * </pre>
+     * 
+     * TODO: This test doesn't match the MDR implementation because it expects
+     * the contents of a namespace to be copied.  It is disabled until it can
+     * be fixed to run with both MDR and eUML. - tfm 20070820
+     * 
+     * @author Bogdan
+     */",DEFECT
+"//??? For now, use the same renderer as everyone else. //?? //?? IN FUTURE: change this to use a new instance of renederer //?? for this data type.",DESIGN
+// TODO implement OCLExpression,IMPLEMENTATION
+"// Associations not supported, yet // TODO: Create appropriate ClassdiagramEdge",IMPLEMENTATION
+// TODO : this really needs to be delayed unitl after we definitively know all node types // where this is currently a problem is parameters for which where we cannot unequivocally // resolve an expected type,DESIGN
+// not needed,IMPLEMENTATION
+"// JUNIT3 test //assertEquals(error, JUnitTestRunner.FAILURES, runner.getRetCode()); //@fixme as of now does not report the original stacktrace. //assertTrue(error, error.indexOf(""thrown on purpose"") != -1);",TEST
+// HACK: force clinit to be created,DESIGN
+"// TODO: at the point where we are resolving collection references, we don't // know if the uk value has been resolved (depends if it was earlier or // later in the mapping document) - now, we could try and use e.getStatus() // to decide to semiResolve(), trouble is that initializeEntity() reuses // the same array for resolved and hydrated values",DEFECT
+// REVIEW How do we resolve this discrepancy?!,DESIGN
+// TODO is it possible to use more than one variable?,IMPLEMENTATION
+// todo : move to StringHelper?,DESIGN
+"/* TODO: The recurrence goes in front of the action?
+                 * Does this not contradict the header JavaDoc? */",DOCUMENTATION
+"// TODO: This comparison is very suspect, it should use equals // method. The code within the block is in fact never executed. // I hesitate to change this now as it will trigger code has never been // used before and am not aware of any problems that it usage may // introduce. // I do think that we need to be able to find a different way to // implement the intent here which seems to be to correct edge drawings // that should actually not be allowed - Bob",IMPLEMENTATION
+// table=null -> an association // - fill it in later //TODO fill in the mappings for table == null,IMPLEMENTATION
+// TODO: Document why we catch this.,DOCUMENTATION
+// Don't try restoring the URL TODO: wy not?,DEFECT
+// TODO @author hubms show if there is already a virtual folder for // this tag,IMPLEMENTATION
+// TODO: We may want to restrict the list to parameters which  // conform to the following WFR: //              parameter.type = ofstype //              or (parameter.kind = #in //              and ofstype.allSupertypes->includes(type)) //              or ((parameter.kind = #out or parameter.kind = #return) //              and type.allSupertypes->includes(ofstype)) //              or (parameter.kind = #inout //              and ( ofstype.allSupertypes->includes(type) //              or type.allSupertypes->includes(ofstype)))),DESIGN
+// Empty implementation.,IMPLEMENTATION
+"// Make a read-only copy of the listeners list so that reentrant calls // back to add/removeListener won't mess us up. // TODO: Potential performance issue, but we need the correctness - tfm",IMPLEMENTATION
+"/**
+     * Set the URI for this project. <p>
+     * 
+     * Don't use this directly! Use instead:
+     * {@link org.argouml.persistence.PersistenceManager
+     * #setProjectURI(URI, Project)}
+     * <p>
+     * TODO: Why isn't this deprecated or private if it is not to be used?
+     * 
+     * @param theUri The URI to set.
+     */",DESIGN
+// TODO: Optimize for root model case? - tfm,DESIGN
+// defer argument checking...,DESIGN
+// TODO: - please add some javadoc - ugly classname also,DOCUMENTATION
+"/*
+         * A little hack - add each listener to the start of the list - this
+         * ensures that the thread running the show is the first listener and
+         * can modify certain values before other listeners are called.
+         */",DESIGN
+"// Must be called from main thread (it is currently, but this bothers me)",DESIGN
+// TODO: this assumes ranges are sorted. Is this true? - tfm,DESIGN
+// not needed,IMPLEMENTATION
+//TODO add tests for SaveGraphics,TEST
+// todo : look at optimizing these...,IMPLEMENTATION
+"// TODO: The size of text figs, which is what we care about most, // isn't computed correctly by GEF. If we got ambitious, we could // recompute a proper size ourselves.",DEFECT
+// SSS FIXME: What happens to the add class in this case??,DESIGN
+// TODO: synchronized is required here as there can be some  // concurrent modification problems when drawing a call message and // having that automatically draw the reply. Maybe fixing the TODO // below will resolve this and the synch can go.,DEFECT
+// TODO: This requires that the tests be run with assertions // enabled which isn't guaranteed in all environments.,TEST
+// TODO: full-precision divmod is 1000x slower than MRI!,DEFECT
+"// workaround for missing ability to parse ""*""",DESIGN
+// TODO: Move to GEF,DESIGN
+"/**
+     * The list with objects that should be shown in the combobox.
+     * TODO: Using a list here forces a linear search when we're trying to add
+     * a new element to the model which can be very slow for large models.
+     */",IMPLEMENTATION
+"//TODO: move to .sql package, and refactor with similar things!",DESIGN
+"// TODO: this needs to be improved // even for nongui calling, the config panel needs to be initialized:",IMPLEMENTATION
+// TODO: don't require pop,DEFECT
+"/**
+     * For modules, it would be usefule to be able to remove their factories.<p>
+     * 
+     * TODO: The effect of this method is not yet tested!
+     * 
+     * @param factory the factory to remove
+     */",TEST
+// is this an error???,DEFECT
+//TODO: get SQL rendering out of this package!,DESIGN
+"/**
+     * Recursive method to get all subtypes.
+     *
+     * TODO: Does this have a scalability problem?
+     */",DESIGN
+// TODO add test methods here. The name must begin with 'test'. For example:,TEST
+// TODO: don't require pop,DEFECT
+"// I hate to admit it, but we don't know what happened // here.  Throw the Exception.",DEFECT
+//TODO: is this really necessary????,DESIGN
+// I don't know if this should be run this deferred // because we might have to give the editor a chance to process the viewer update events // and hence to update the views first. // //,IMPLEMENTATION
+"//??? For now, use the same renderer as everyone else. //?? //?? IN FUTURE: change this to use a new instance of renederer //?? for this data type.",DESIGN
+"/* TODO: In this case, the properties panel
+                 is not updated with the changed expression! */",DEFECT
+"/**
+     * @param project the ArgoUML {@link Project} to save in file.
+     * @param file the {@link File} in which an ArgoUML {@link Project} will
+     * be persisted.
+     * @return the persister used and usable for file.
+     * @throws SaveException if saving the file goes wrong.
+     * @throws InterruptedException if an interrupt occurs while saving.
+     * TODO: move this to an helper class.
+     */",DESIGN
+// TODO: This is a tagged value name which will never trigger an event,DEFECT
+// TODO: full-precision remainder is 1000x slower than MRI!,DEFECT
+// TODO: Taken from FigClassifierBoxWithAttribute to handle events // on an attribute. All this event handling should eventually be moved // to the compartment Fig for attributes,DESIGN
+"// TODO: This exception will be thrown during autoscrolling // when the edge of the canvas is reached causing either // the width or height to be ""adjusted"" to a negative value",DEFECT
+"//TODO: eventually put this back in, once we think all is fixed //Object otherAlias = columnsUnique.put(qualifiedColumn, columnAlias);",IMPLEMENTATION
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * @return String
+	 * @param String
+	 *            Name
+	 *  
+	 */",DOCUMENTATION
+"/*TODO: In the next line, I should use buildGuard(),
+                 * but it doesn't show the guard on the diagram...
+                 * Why? (MVW)
+                 */",IMPLEMENTATION
+// TODO: Show dialog,IMPLEMENTATION
+"// calculate the adjusted data area taking into account the 3D effect... // this assumes that there is a 3D renderer, all this 3D effect is a // bit of an ugly hack...",DESIGN
+// Do we have 2 connection ends?,IMPLEMENTATION
+"// Allow the mimetype of the file to control the content type // This is not obvious in GUI if you are not uploading any files, // but just sending the content of nameless parameters // TODO: needs a multiple file upload scenerio",IMPLEMENTATION
+// first determine the size of the chart rendering area... // TODO workout insets for SWT,DESIGN
+//TODO: make the explorer listen to project member property //changes...  to eliminate coupling on gui.,DESIGN
+// REMIND: convert arg list Vectors here?,IMPLEMENTATION
+/////////////////////////////////////////////////////////////////////// // TODO : look at perhaps caching this...,IMPLEMENTATION
+// FIXME: JRUBY-3188 ends up with condition returning null...quick fix until I can dig into it,DESIGN
+"// TODO: This brute force approach of updating listeners on each // and every event, without checking the event type or any other // information is going to cause lots of InvalidElementExceptions // in subclasses implementations of updateListeners (and they // won't have the event information to make their own decisions)",DEFECT
+//TODO check there is no actual definition elemnents when a ref is defined,IMPLEMENTATION
+// TODO: We should assert this never happens before removing // panels should control their own listeners,IMPLEMENTATION
+"/**
+     * Make use of the default visibility, which is public...
+     * TODO: centralise this knowledge.
+     *
+     * @see org.argouml.uml.diagram.ui.AbstractActionRadioMenuItem#valueOfTarget(java.lang.Object)
+     */",DOCUMENTATION
+// Don't allow override of Content-Length // TODO - what other headers are not allowed?,IMPLEMENTATION
+"/**
+     * Returns a string representing the week (e.g. ""Week 9, 2002"").
+     *
+     * TODO: look at internationalisation.
+     *
+     * @return A string representing the week.
+     */",IMPLEMENTATION
+"/*
+         * TODO: Is this needed/correct?
+         * For when all compartments are hidden?
+         */",DESIGN
+"// SSS FIXME: Maybe this is not really a concern after all ... // Nesting level of this scope in the lexical nesting of scopes in the current file -- this is not to be confused // with semantic nesting of scopes across files. // // Consider this code in a file f // class M1::M2::M3::C  //   ... // end // // So, C is at lexical nesting level of 1 (the file script is at 0) in the file 'f' // Semantically it is at level 3 (M1, M2, M3 are at 0,1,2). // // This is primarily used to ensure that variable names don't clash! // i.e. definition of %v_1 in a closure shouldn't override the use of %v_1 from the parent scope! //    private int _lexicalNestingLevel;",DESIGN
+// FIXME: This isn't quite right; it shouldn't evaluate the value if it's going to throw the error,DEFECT
+"/**
+	 * the utility class that reads and writes release info from/to the release.xml file TODO: Spring-inject
+	 * when this class is a Spring bean
+	 */",DESIGN
+// TODO: I18N required,IMPLEMENTATION
+// TODO: I18n,IMPLEMENTATION
+// not needed,IMPLEMENTATION
+//?? remember which column is the rowID (if any) so we can //?? prevent editing on it,IMPLEMENTATION
+/* TODO: Why do I need to do this? */,IMPLEMENTATION
+// TODO: not complete,IMPLEMENTATION
+"// TODO: this should fail, but it doesn't:",TEST
+// TODO: do we want to fire targetRemoved here or is it enough to just // stop updating the targets?,IMPLEMENTATION
+// FIXME threaded-view auto collapse,IMPLEMENTATION
+// TODO: We need the project specific diagram settings here,IMPLEMENTATION
+// TODO: rotate the image when drawn with horizontal orientation?,DESIGN
+// Need better test for Windows,TEST
+// TODO: don't require pop,DEFECT
+"// This is a fairly specific hack for empty string, but it does the job",DESIGN
+"/**
+     * Test a UML 1.3/XMI 1.1 file to make sure that it gets converted properly.
+     * <p>
+     * TODO: Our UML 1.3 converter currently only handles XMI 1.0. 
+     * @throws FileNotFoundException indicates a test configuration problem
+     * @throws UmlException if it fails to open the file
+     */",TEST
+// TODO: how to merge multiple inheritance? Necessary? // This currently copies the common ancestors multiple times,DESIGN
+"// this is a rather ugly hack, but similar to MRI. See hash.c:ruby_setenv and similar in MRI // we search all keys for a case-insensitive match, and use that",DESIGN
+"/**
+    * Parse an element-content model.
+    * [42] elements ::= (choice | seq) ('?' | '*' | '+')?
+    * [44] cps ::= S? %cp S?
+    * [45] choice ::= '(' S? %ctokplus (S? '|' S? %ctoks)* S? ')'
+    * [46] ctokplus ::= cps ('|' cps)+
+    * [47] ctoks ::= cps ('|' cps)*
+    * [48] seq ::= '(' S? %stoks (S? ',' S? %stoks)* S? ')'
+    * [49] stoks ::= cps (',' cps)*
+    * *NOTE: the opening '(' and S have already been read.
+    * *TODO: go over parameter entity boundaries more carefully.
+    */",IMPLEMENTATION
+"// TODO: This doesn't perform well enough with large models to have // it enabled by default. If the performance can't be improved, // perhaps we can introduce a manual ""find in explorer tree"" action. // selectAll(targets);",DEFECT
+// TODO probably not needed,DESIGN
+// FIXME: this attribute is never used - deprecate?,DESIGN
+// TODO: Silently ignore instead? //        return false;,DESIGN
+// TODO: Determine whether we should perhaps store non-singleton class // in the implementationClass,DESIGN
+"/*
+     * TODO: error counting needs to be sorted out.
+     *
+     * At present the Statistical Sampler tracks errors separately
+     * It would make sense to move the error count here, but this would
+     * mean lots of changes.
+     * It's also tricky maintaining the count - it can't just be incremented/decremented
+     * when the success flag is set as this may be done multiple times.
+     * The work-round for now is to do the work in the StatisticalSampleResult,
+     * which overrides this method.
+     * Note that some JMS samplers also create samples with > 1 sample count
+     * Also the Transaction Controller probably needs to be changed to do
+     * proper sample and error accounting.
+     * The purpose of this work-round is to allow at least minimal support for
+     * errors in remote statistical batch mode.
+     *
+     */",DEFECT
+// not needed,IMPLEMENTATION
+// TODO: Shouldn't we throw an exception here?!?!,DEFECT
+// TODO: Check this result...,DEFECT
+// meant to handle dynamic instantiation queries...(Copy from QueryLoader),DESIGN
+// TODO: We should warn the user we have removed something - tfm,DEFECT
+// not used,DESIGN
+"/**
+	 * **FIXME** This function needs documentation
+	 * 
+	 * 
+	 * @param Attrs
+	 *            Hashtable to use as the attributes
+	 *  
+	 */",DOCUMENTATION
+// TODO: don't require pop,DEFECT
+"/**
+     * Tests if the list with namespaces defined in getValidNamespaceClasses
+     * contains only valid namespaces.
+     *
+     * TODO: This test does not test anything, really!
+     */",TEST
+"// for visibility checking without requiring frame self // TODO: don't bother passing when fcall or vcall, and adjust callsite appropriately",DESIGN
+"/*
+     * TODO: Prove that this works. 
+     * The TestUMLAssociationRoleBaseComboBoxModel does not cut it. 
+     * 
+     * @see org.argouml.uml.ui.UMLComboBoxModel#addOtherModelEventListeners(java.lang.Object)
+     */",TEST
+"/**
+     * Transforms urls into HTML just as substituteURL(String),
+     * but tries to ignore urls, which are already links, if the ignore
+     * links flag is set.
+     * <br>
+     * This extended functionality is necessary when parsing a text which
+     * is already (partly) html.
+     * <br>
+     * FIXME: Can this be done smarter, i.e. directly with reg. expr. without manual parsing??
+     *
+     * @param         s                                input text
+     * @param        ignoreLinks                if true link tags are ignored. This gives a
+     *                                                         wrong result if some urls are already links
+     *                                                         (but uses reg. expr. directly, and is
+     *                                                         therefore faster)
+     * @return        text with urls
+     */",DESIGN
+"//??? For now, use the same renderer as everyone else. //?? //?? IN FUTURE: change this to use a new instance of renederer //?? for this data type.",DESIGN
+"// caching is not correct and doesn't seem to help... //	enclosingNameSpace.cacheClass( name, genClass );",DEFECT
+//TODO: suck this into initLaziness!,DESIGN
+// We are in eval with binding break out early // FIXME: This is broken with the new backtrace stuff,DEFECT
+"//TODO: implement, won't do this now",IMPLEMENTATION
+"// this is such a bad way of doing it, but oh well...",DESIGN
+// todo : cache this sql...,IMPLEMENTATION
+/* TODO: really should be a separate class */,DESIGN
+"// TODO: Need to add storageOptions to the add index dialog // valuesMap.put(ST_STORAGE_OPTION_KEY, );",IMPLEMENTATION
+// TODO: should not be using assert here but I don't want to change to // IllegalStateException at lead up to a release as I don't know how // much testing is done with assert on.,TEST
+// FIXME: wtf is this? Why would these use the class?,DESIGN
+// TODO: Is it removed from UML2 ?,IMPLEMENTATION
+"/*
+       * This won't work on Derby where non-varchar columns cannot be altered
+       * among other restrictions.
+       * 
+       * TableColumnInfo nullintVC = getVarcharColumn(""nullint"", true, ""defVal"",
+       * ""A varchar comment""); String alterColTypeSQL =
+       * dialect.getColumnTypeAlterSQL(firstCol, nullintVC); runSQL(session,
+       * alterColTypeSQL);
+       */",DEFECT
+"// TODO: fix testcase //assertEquals(""filter result"", true, result);",TEST
+/* TODO: What if used elsewhere? */,DESIGN
+"/**
+     * Finds the operation to which a CallEvent refers, based on the given 
+     * transition. This function determines the context of the statemachine 
+     * that contains the given transition. If the context is a Classifier, then 
+     * all operations of this classifier are candidates. If the context is a 
+     * BehavioralFeature, then all operations of the owner Classifier are 
+     * candidates. The first operation of which the name matches is the result.
+     * For Activity diagrams: If the context is a Package, then
+     * all Operations of all Classifiers in the package are candidates.
+     * TODO: This function works for the most normal cases,
+     * but needs some testing for rare cases, e.g. internal transitions,...
+     * TODO: The Parameters of the candidates are ignored. Maybe this 
+     * method should return a set of matching operations.
+     *
+     * @author MVW
+     * @param trans Object of type Transition
+     * @param opname the name of the operation sought
+     * @return Object the operation with the given name, or null
+     */",IMPLEMENTATION
+// Split the methods into constructors and regular method lists,DESIGN
+// These don't appear to work. // rowHeaderTableCol1.setResizable(true); // rowHeaderTableCol2.setResizable(true); // cornerTableCol1.setResizable(true); // cornerTableCol2.setResizable(true);,DEFECT
+// @todo this is duplicating TestResult information. Only the time is not // part of the result. So we'd better derive a new class from TestResult // and deal with it. (SB),TEST
+// append the SQL to return the generated identifier //TODO: suck into Insert,DESIGN
+"// TODO: This uses a ""last one wins"" algorithm for registration // We should warn if a factory is being overwritten.",DESIGN
+// 18 nov 2003: calling this on a drive letter on Windows causes // drive access,DEFECT
+// TODO: does not work for EntityMode.DOM4J yet!,DEFECT
+// TODO: Also check REG_ANCHORINDEX vs. anchor,IMPLEMENTATION
+//TODO - need a lot more tests,TEST
+"// RDMS does not directly support the trim() function, we use rtrim() and ltrim()",DEFECT
+// TODO Can't see anything in SPEC,DOCUMENTATION
+// TODO: don't require pop,DEFECT
+"// TODO do tests for collections of collections (8.5.13), // even though it is not yet supported  // question: should this happen with all collections or only  // the constructed ones?",TEST
+"// TODO: lowercasing done here. Was done ""at random"" before; maybe not needed at all ?",IMPLEMENTATION
+/* TODO: link to the Signal. */,DOCUMENTATION
+// TODO should this be done even if not a full test plan? // and what if load fails?,TEST
+// Is getName() ok?  test with 1.1,TEST
+// not needed,IMPLEMENTATION
+"/* If the jarfile already exists then whack it and recreate it.
+             * Should probably think of a more elegant way to handle this
+             * so that in case of errors we don't leave people worse off
+             * than when we started =)
+             */",DESIGN
+// This doesn't actually seem to work but it *might* // work on some dbs. Also it doesn't work if there // are multiple columns of results because it // is not accounting for the suffix: // return new String[] { getDiscriminatorColumnName() };,DEFECT
+// EATM in JDK 1.4 there will be an indexOf on StringBuffer. //,DEFECT
+// TODO: this should call the single namespace form // getStereotype(it2.next(); stereo);,DESIGN
+//TODO (@author fdietz): implement,IMPLEMENTATION
+// TODO: It would be better to defer this initialization until the panel // actually needs to be displayed. Perhaps optimistically always return // true and figure out later if we've got something to display - tfm - // 20070110,IMPLEMENTATION
+// TODO (@author hubms): implement custom menuitem renderer,DESIGN
+"/**
+     * List of ChecklistStatus:es.
+     *
+     * Indexed on the model element itself.
+     * TODO: Should use weak references so that this is forgotten about
+     * when the object is removed.
+     */",IMPLEMENTATION
+// TODO check this,IMPLEMENTATION
